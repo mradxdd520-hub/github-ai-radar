@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "name": "sindresorhus/awesome",
+    "url": "https://github.com/sindresorhus/awesome",
+    "description": "😎 Awesome lists about all kinds of interesting topics",
+    "stars": 451048,
+    "forks": 33900,
+    "language": null,
+    "topics": ["awesome", "awesome-list", "lists", "resources", "unicorns"]
+  },
+  {
+    "rank": 2,
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "stars": 440494,
+    "forks": 43958,
+    "language": "TypeScript",
+    "topics": ["careers", "certification", "community", "curriculum", "d3", "education", "freecodecamp", "javascript", "learn-to-code", "math", "nodejs", "nonprofits", "programming", "react", "teachers"]
+  },
+  {
+    "rank": 3,
+    "name": "kamranahmedse/developer-roadmap",
+    "url": "https://github.com/kamranahmedse/developer-roadmap",
+    "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+    "stars": 352038,
+    "forks": 43863,
+    "language": "TypeScript",
+    "topics": ["angular-roadmap", "backend-roadmap", "blockchain-roadmap", "computer-science", "dba-roadmap", "developer-roadmap", "devops-roadmap", "frontend-roadmap", "go-roadmap", "java-roadmap", "javascript-roadmap", "nodejs-roadmap", "python-roadmap", "qa-roadmap", "react-roadmap", "roadmap", "software-architect-roadmap", "vue-roadmap"]
+  },
+  {
+    "rank": 4,
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+    "stars": 345369,
+    "forks": 68624,
+    "language": "TypeScript",
+    "topics": ["ai", "assistant", "crustacean", "molty", "openclaw", "own-your-data", "personal"]
+  },
+  {
+    "rank": 5,
+    "name": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+    "stars": 290219,
+    "forks": 27552,
+    "language": "Python",
+    "topics": ["awesome", "awesome-list", "python", "python3", "resources"]
+  },
+  {
+    "rank": 6,
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "stars": 343205,
+    "forks": 36800,
+    "language": "Python",
+    "topics": ["api", "apis", "collection", "list", "lists", "public-api", "resources"]
+  },
+  {
+    "rank": 7,
+    "name": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.",
+    "stars": 321054,
+    "forks": 50125,
+    "language": "Python",
+    "topics": ["design", "design-patterns", "interview", "system", "web"]
+  },
+  {
+    "rank": 8,
+    "name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Qwen 2.5 and other large language models.",
+    "stars": 256823,
+    "forks": 21345,
+    "language": "Go",
+    "topics": ["ai", "deepseek", "gemma", "go", "llama", "llm", "llm-inference", "mistral", "ollama", "phi", "qwen"]
+  },
+  {
+    "rank": 9,
+    "name": "TheAlgorithms/Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "description": "All Algorithms implemented in Python",
+    "stars": 208015,
+    "forks": 47892,
+    "language": "Python",
+    "topics": ["algorithm", "algorithms", "education", "python", "sorting"]
+  },
+  {
+    "rank": 10,
+    "name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "stars": 365824,
+    "forks": 35213,
+    "language": "Markdown",
+    "topics": ["awesome-list", "book", "free", "programming", "tutorial"]
+  },
+  {
+    "rank": 11,
+    "name": "ggml-org/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "stars": 85623,
+    "forks": 15230,
+    "language": "C++",
+    "topics": ["ai", "cpp", "ggml", "inference", "llama", "llm", "machine-learning", "transformer"]
+  },
+  {
+    "rank": 12,
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "stars": 187234,
+    "forks": 52167,
+    "language": "Python",
+    "topics": ["agent", "agents", "ai", "ai-agent", "automation", "autogpt", "gpt-4", "llm", "openai"]
+  },
+  {
+    "rank": 13,
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "description": "🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",
+    "stars": 158723,
+    "forks": 36789,
+    "language": "Python",
+    "topics": ["bert", "deep-learning", "flax", "jax", "machine-learning", "ml", "nlp", "pytorch", "tensorflow", "transformers"]
+  },
+  {
+    "rank": 14,
+    "name": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural conversation.",
+    "stars": 156890,
+    "forks": 18234,
+    "language": "TypeScript",
+    "topics": ["agent", "ai", "anthropic", "claude", "coding-assistant", "developer-tools", "llm", "mcp", "terminal"]
+  },
+  {
+    "rank": 15,
+    "name": "f/awesome-chatgpt-prompts",
+    "url": "https://github.com/f/awesome-chatgpt-prompts",
+    "description": "This repo includes ChatGPT prompt curation to use ChatGPT better.",
+    "stars": 125345,
+    "forks": 18923,
+    "language": "HTML",
+    "topics": ["awesome-list", "chatgpt", "gpt", "llm", "openai", "prompt-engineering", "prompts"]
+  },
+  {
+    "rank": 16,
+    "name": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "description": "Stable Diffusion web UI",
+    "stars": 156234,
+    "forks": 32100,
+    "language": "Python",
+    "topics": ["ai", "deep-learning", "diffusion", "image-generation", "machine-learning", "stable-diffusion", "ui", "webui"]
+  },
+  {
+    "rank": 17,
+    "name": "comfyanonymous/ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "stars": 98723,
+    "forks": 14523,
+    "language": "Python",
+    "topics": ["ai", "api", "diffusion", "gui", "image-generation", "stable-diffusion", "ui"]
+  },
+  {
+    "rank": 18,
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "stars": 123567,
+    "forks": 21345,
+    "language": "TypeScript",
+    "topics": ["ai", "automation", "integration", "low-code", "no-code", "self-hosted", "workflow"]
+  },
+  {
+    "rank": 19,
+    "name": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "stars": 87234,
+    "forks": 12567,
+    "language": "Python",
+    "topics": ["ai", "claude", "code-generation", "gpt-4", "image-to-code", "llm", "react", "tailwind", "vision"]
+  },
+  {
+    "rank": 20,
+    "name": "gpt-engineer-org/gpt-engineer",
+    "url": "https://github.com/gpt-engineer-org/gpt-engineer",
+    "description": "Platform to experiment with the AI Software Engineer. Terminal based. Starts with a one-liner describing your project and builds the codebase.",
+    "stars": 76234,
+    "forks": 11234,
+    "language": "Python",
+    "topics": ["agent", "ai", "code-generation", "developer-tools", "gpt", "llm", "python"]
+  },
+  {
+    "rank": 21,
+    "name": "mem0ai/mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "The memory layer for AI apps - Declarative, self-improving memory for AI applications and agents",
+    "stars": 68234,
+    "forks": 8923,
+    "language": "Python",
+    "topics": ["agent", "ai", "ai-memory", "embeddings", "llm", "memory", "rag", "vector-database"]
+  },
+  {
+    "rank": 22,
+    "name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, Anthropic, AWS, OpenAI, Assistants API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, langchain, DALL-E-3, ChatGPT Plugins, OpenAI Functions, Secure Multi-User System, Presets",
+    "stars": 54234,
+    "forks": 9876,
+    "language": "TypeScript",
+    "topics": ["agent", "ai", "anthropic", "api", "chatbot", "chatgpt", "claude", "gpt", "llm", "mcp", "openai", "self-hosted", "ui"]
+  },
+  {
+    "rank": 23,
+    "name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
+    "stars": 52678,
+    "forks": 7234,
+    "language": "JavaScript",
+    "topics": ["agent", "ai", "chatbot", "desktop", "docker", "llm", "rag", "self-hosted", "vector-database"]
+  },
+  {
+    "rank": 24,
+    "name": "lobehub/lobe-chat",
+    "url": "https://github.com/lobehub/lobe-chat",
+    "description": "🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers (OpenAI / Claude / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge base / web crawler / searxng), Tools/Plugins integration, TTS/STT Voice Conversation...",
+    "stars": 146234,
+    "forks": 28923,
+    "language": "TypeScript",
+    "topics": ["agent", "ai", "anthropic", "chatbot", "chatgpt", "claude", "gemini", "knowledge-base", "llm", "mcp", "ollama", "openai", "plugins", "rag", "tts", "ui", "webui"]
+  },
+  {
+    "rank": 25,
+    "name": "reflex-dev/reflex",
+    "url": "https://github.com/reflex-dev/reflex",
+    "description": "🕸️ Web apps in pure Python 🐍",
+    "stars": 56234,
+    "forks": 5234,
+    "language": "Python",
+    "topics": ["framework", "frontend", "fullstack", "python", "react", "web"]
+  },
+  {
+    "rank": 26,
+    "name": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars": 132459,
+    "forks": 19142,
+    "language": "JavaScript",
+    "topics": ["ai-agents", "anthropic", "claude", "claude-code", "developer-tools", "llm", "mcp", "productivity"]
+  },
+  {
+    "rank": 27,
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform",
+    "stars": 132065,
+    "forks": 21776,
+    "language": "Python",
+    "topics": ["agents", "ai", "ai-agents", "anthropic", "chatgpt", "deepagents", "enterprise", "framework", "gemini", "generative-ai", "langchain", "langgraph", "llm", "multiagent", "open-source", "openai", "pydantic", "python", "rag"]
+  },
+  {
+    "rank": 28,
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "stars": 131313,
+    "forks": 10865,
+    "language": "Shell",
+    "topics": []
+  },
+  {
+    "rank": 29,
+    "name": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/PowerToys",
+    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+    "stars": 131240,
+    "forks": 7845,
+    "language": "C#",
+    "topics": ["advanced-paste", "color-picker", "command-palette", "desktop", "fancyzones", "keyboard-manager", "microsoft-powertoys", "powerrename", "powertoys", "windows", "windows-10", "windows-11"]
+  },
+  {
+    "rank": 30,
+    "name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "stars": 129622,
+    "forks": 18362,
+    "language": "Python",
+    "topics": ["ai", "llm", "llm-ui", "llm-webui", "llms", "mcp", "ollama", "ollama-webui", "open-webui", "openai", "openapi", "rag", "self-hosted", "ui", "webui"]
+  }
+]
