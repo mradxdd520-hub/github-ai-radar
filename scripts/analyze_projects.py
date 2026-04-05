@@ -216,7 +216,7 @@ def analyze_project(project: dict) -> dict:
         'vc_score': vc_score
     }
 
-def generate_report(analyzed_projects: list, top_n: int = 3) -> str:
+def generate_report(analyzed_projects: list, top_n: int = 5) -> str:
     """生成 Markdown 格式的每日报告"""
     today = datetime.now().strftime('%Y-%m-%d')
     
