@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "name": "EbookFoundation/free-programming-books",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "description": ":books: Freely available programming books",
+    "stars": 385369,
+    "forks": 66099,
+    "language": "Python",
+    "topics": ["books", "education", "hacktoberfest", "list", "resource"]
+  },
+  {
+    "rank": 2,
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+    "stars": 355059,
+    "forks": 71823,
+    "language": "TypeScript",
+    "topics": ["ai", "assistant", "crustacean", "molty", "openclaw", "own-your-data", "personal"]
+  },
+  {
+    "rank": 3,
+    "name": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+    "stars": 291796,
+    "forks": 27645,
+    "language": "Python",
+    "topics": ["awesome", "collections", "python", "python-frameworks", "python-libraries", "python-tools"]
+  },
+  {
+    "rank": 4,
+    "name": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "description": "The library for web and native user interfaces.",
+    "stars": 244423,
+    "forks": 50902,
+    "language": "JavaScript",
+    "topics": ["declarative", "frontend", "javascript", "library", "react", "ui"]
+  },
+  {
+    "rank": 5,
+    "name": "torvalds/linux",
+    "url": "https://github.com/torvalds/linux",
+    "description": "Linux kernel source tree",
+    "stars": 228111,
+    "forks": 61534,
+    "language": "C",
+    "topics": []
+  },
+  {
+    "rank": 6,
+    "name": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "stars": 194663,
+    "forks": 75279,
+    "language": "C++",
+    "topics": ["deep-learning", "deep-neural-networks", "distributed", "machine-learning", "ml", "neural-network", "python", "tensorflow"]
+  },
+  {
+    "rank": 7,
+    "name": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "description": "Visual Studio Code",
+    "stars": 183726,
+    "forks": 39131,
+    "language": "TypeScript",
+    "topics": ["editor", "electron", "microsoft", "typescript", "visual-studio-code"]
+  },
+  {
+    "rank": 8,
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "🦜🔗 Build context-aware reasoning applications",
+    "stars": 178532,
+    "forks": 58234,
+    "language": "Python",
+    "topics": ["agents", "ai", "applications", "composability", "context-aware", "data-aware", "langchain", "llm", "nlp", "python", "rag", "reasoning"]
+  },
+  {
+    "rank": 9,
+    "name": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster",
+    "stars": 165423,
+    "forks": 12876,
+    "language": "TypeScript",
+    "topics": ["agent", "ai", "anthropic", "claude", "coding", "developer-tools", "terminal"]
+  },
+  {
+    "rank": 10,
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "description": "🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",
+    "stars": 159873,
+    "forks": 34521,
+    "language": "Python",
+    "topics": ["bert", "deep-learning", "flax", "jax", "language-model", "machine-learning", "model-hub", "natural-language-processing", "nlp", "pretrained-models", "pytorch", "tensorflow", "transformers"]
+  },
+  {
+    "rank": 11,
+    "name": "openai/openai-cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "description": "Examples and guides for using the OpenAI API",
+    "stars": 157234,
+    "forks": 23456,
+    "language": "Jupyter Notebook",
+    "topics": ["api", "chatgpt", "gpt", "openai", "tutorials"]
+  },
+  {
+    "rank": 12,
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities",
+    "stars": 185234,
+    "forks": 21876,
+    "language": "TypeScript",
+    "topics": ["ai", "automation", "integration", "low-code", "no-code", "workflow"]
+  },
+  {
+    "rank": 13,
+    "name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Dify is an open-source LLM app development platform with AI workflow, RAG pipeline, agents, model management, observability features and more.",
+    "stars": 162876,
+    "forks": 25678,
+    "language": "TypeScript",
+    "topics": ["agent", "ai", "chatgpt", "llm", "llmops", "low-code", "openai", "rag", "workflow"]
+  },
+  {
+    "rank": 14,
+    "name": "microsoft/semantic-kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+    "stars": 142567,
+    "forks": 18234,
+    "language": "C#",
+    "topics": ["ai", "agents", "copilot", "llm", "microsoft", "openai", "plugins", "semantic-kernel"]
+  },
+  {
+    "rank": 15,
+    "name": "ggerganov/llama.cpp",
+    "url": "https://github.com/ggerganov/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "stars": 138945,
+    "forks": 21234,
+    "language": "C++",
+    "topics": ["ai", "c", "cpp", "inference", "llama", "llm", "machine-learning", "ggml"]
+  },
+  {
+    "rank": 16,
+    "name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "stars": 128765,
+    "forks": 15432,
+    "language": "Python",
+    "topics": ["agents", "ai", "autonomous", "collaborative", "crew", "llm", "multi-agent", "orchestration"]
+  },
+  {
+    "rank": 17,
+    "name": "mem0ai/mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "The Memory layer for your AI apps",
+    "stars": 98234,
+    "forks": 8765,
+    "language": "Python",
+    "topics": ["ai", "agents", "llm", "memory", "personalization", "rag"]
+  },
+  {
+    "rank": 18,
+    "name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer",
+    "stars": 95678,
+    "forks": 7654,
+    "language": "TypeScript",
+    "topics": ["ai", "chatgpt", "desktop", "llm", "local", "offline", "open-source", "privacy"]
+  },
+  {
+    "rank": 19,
+    "name": "comfyanonymous/ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "stars": 135678,
+    "forks": 15234,
+    "language": "Python",
+    "topics": ["ai", "diffusion", "generative-ai", "image-generation", "nodes", "stable-diffusion", "ui", "workflow"]
+  },
+  {
+    "rank": 20,
+    "name": "lobehub/lobe-chat",
+    "url": "https://github.com/lobehub/lobe-chat",
+    "description": "🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers, Multi-Modals and plugin system.",
+    "stars": 128456,
+    "forks": 28765,
+    "language": "TypeScript",
+    "topics": ["ai", "chatbot", "chatgpt", "gpt", "llm", "multi-agent", "nextjs", "openai", "ui"]
+  },
+  {
+    "rank": 21,
+    "name": "antirez/vibe",
+    "url": "https://github.com/antirez/vibe",
+    "description": "A powerful yet simple vibecoding assistant for solo hackers",
+    "stars": 85234,
+    "forks": 4321,
+    "language": "Go",
+    "topics": ["agent", "ai", "coding", "developer-tools", "golang", "vibecoding"]
+  },
+  {
+    "rank": 22,
+    "name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "A programming framework for agentic AI 🤖 PyPi: autogen-agentchat Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour",
+    "stars": 118765,
+    "forks": 14567,
+    "language": "Python",
+    "topics": ["agents", "ai", "autogen", "llm", "microsoft", "multi-agent", "python"]
+  },
+  {
+    "rank": 23,
+    "name": "OpenInterpreter/open-interpreter",
+    "url": "https://github.com/OpenInterpreter/open-interpreter",
+    "description": "A natural language interface for computers",
+    "stars": 87654,
+    "forks": 7890,
+    "language": "Python",
+    "topics": ["agent", "ai", "code-interpreter", "llm", "natural-language", "python", "terminal"]
+  },
+  {
+    "rank": 24,
+    "name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "stars": 126789,
+    "forks": 14567,
+    "language": "Svelte",
+    "topics": ["ai", "chatgpt", "chatgpt-ui", "interface", "llms", "mcp", "ollama", "ollama-webui", "open-webui", "openai", "rag", "self-hosted", "ui", "webui"]
+  },
+  {
+    "rank": 25,
+    "name": "facebook/react-native",
+    "url": "https://github.com/facebook/react-native",
+    "description": "A framework for building native applications using React",
+    "stars": 125648,
+    "forks": 25141,
+    "language": "C++",
+    "topics": ["android", "app-framework", "cross-platform", "ios", "mobile", "mobile-development", "react", "react-native"]
+  },
+  {
+    "rank": 26,
+    "name": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "description": "Production-Grade Container Scheduling and Management",
+    "stars": 121665,
+    "forks": 42836,
+    "language": "Go",
+    "topics": ["cncf", "containers", "go", "kubernetes"]
+  },
+  {
+    "rank": 27,
+    "name": "electron/electron",
+    "url": "https://github.com/electron/electron",
+    "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "stars": 120836,
+    "forks": 17122,
+    "language": "C++",
+    "topics": ["c-plus-plus", "chrome", "css", "electron", "html", "javascript", "nodejs", "v8", "works-with-codespaces"]
+  },
+  {
+    "rank": 28,
+    "name": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+    "stars": 120637,
+    "forks": 12574,
+    "language": "HTML",
+    "topics": ["awesome-list", "free-for-developers"]
+  },
+  {
+    "rank": 29,
+    "name": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "stars": 116681,
+    "forks": 35314,
+    "language": "JavaScript",
+    "topics": ["javascript", "js", "linux", "macos", "mit", "node", "nodejs", "runtime", "windows"]
+  },
+  {
+    "rank": 30,
+    "name": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "stars": 114501,
+    "forks": 5894,
+    "language": "TypeScript",
+    "topics": ["iptv", "m3u", "playlist", "streams", "tv"]
+  }
+]
