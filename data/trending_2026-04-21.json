@@ -4,8 +4,8 @@
     "name": "freeCodeCamp/freeCodeCamp",
     "url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "stars": 443279,
-    "forks": 44353,
+    "stars": 443281,
+    "forks": 44354,
     "language": "TypeScript",
     "topics": [
       "careers",
@@ -30,7 +30,7 @@
     "name": "EbookFoundation/free-programming-books",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 385783,
+    "stars": 385784,
     "forks": 66115,
     "language": "Python",
     "topics": [
@@ -46,8 +46,8 @@
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "stars": 361402,
-    "forks": 73754,
+    "stars": 361408,
+    "forks": 73758,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -64,7 +64,7 @@
     "name": "kamranahmedse/developer-roadmap",
     "url": "https://github.com/kamranahmedse/developer-roadmap",
     "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "stars": 353286,
+    "stars": 353287,
     "forks": 43954,
     "language": "TypeScript",
     "topics": [
@@ -93,7 +93,7 @@
     "name": "vinta/awesome-python",
     "url": "https://github.com/vinta/awesome-python",
     "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-    "stars": 293511,
+    "stars": 293514,
     "forks": 27727,
     "language": "Python",
     "topics": [
@@ -110,8 +110,8 @@
     "name": "facebook/react",
     "url": "https://github.com/facebook/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 244610,
-    "forks": 50963,
+    "stars": 244611,
+    "forks": 50964,
     "language": "JavaScript",
     "topics": [
       "declarative",
@@ -127,7 +127,7 @@
     "name": "torvalds/linux",
     "url": "https://github.com/torvalds/linux",
     "description": "Linux kernel source tree",
-    "stars": 230118,
+    "stars": 230119,
     "forks": 61774,
     "language": "C",
     "topics": []
@@ -171,8 +171,8 @@
     "name": "ultraworkers/claw-code",
     "url": "https://github.com/ultraworkers/claw-code",
     "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
-    "stars": 186849,
-    "forks": 108969,
+    "stars": 186854,
+    "forks": 108968,
     "language": "Rust",
     "topics": []
   },
@@ -181,7 +181,7 @@
     "name": "ohmyzsh/ohmyzsh",
     "url": "https://github.com/ohmyzsh/ohmyzsh",
     "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "stars": 186385,
+    "stars": 186384,
     "forks": 26365,
     "language": "Shell",
     "topics": [
@@ -239,7 +239,7 @@
     "url": "https://github.com/microsoft/vscode",
     "description": "Visual Studio Code",
     "stars": 184068,
-    "forks": 39298,
+    "forks": 39301,
     "language": "TypeScript",
     "topics": [
       "editor",
@@ -254,7 +254,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 183617,
+    "stars": 183616,
     "forks": 46212,
     "language": "Python",
     "topics": [
@@ -276,7 +276,7 @@
     "name": "flutter/flutter",
     "url": "https://github.com/flutter/flutter",
     "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "stars": 176052,
+    "stars": 176051,
     "forks": 30263,
     "language": "Dart",
     "topics": [
@@ -337,7 +337,7 @@
     "name": "ollama/ollama",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 169563,
+    "stars": 169562,
     "forks": 15710,
     "language": "Go",
     "topics": [
@@ -363,8 +363,8 @@
     "name": "f/prompts.chat",
     "url": "https://github.com/f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 160238,
-    "forks": 20969,
+    "stars": 160241,
+    "forks": 20970,
     "language": "HTML",
     "topics": [
       "ai",
@@ -392,7 +392,7 @@
     "name": "huggingface/transformers",
     "url": "https://github.com/huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-    "stars": 159676,
+    "stars": 159675,
     "forks": 32953,
     "language": "Python",
     "topics": [
@@ -422,8 +422,8 @@
     "name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 147183,
-    "forks": 8810,
+    "stars": 147184,
+    "forks": 8811,
     "language": "Python",
     "topics": [
       "agents",
@@ -439,7 +439,7 @@
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 146722,
+    "stars": 146727,
     "forks": 16707,
     "language": "TypeScript",
     "topics": []
@@ -449,7 +449,7 @@
     "name": "vercel/next.js",
     "url": "https://github.com/vercel/next.js",
     "description": "The React Framework",
-    "stars": 139044,
+    "stars": 139045,
     "forks": 30927,
     "language": "JavaScript",
     "topics": [
@@ -474,7 +474,7 @@
     "name": "Genymobile/scrcpy",
     "url": "https://github.com/Genymobile/scrcpy",
     "description": "Display and control your Android device",
-    "stars": 138792,
+    "stars": 138793,
     "forks": 12929,
     "language": "C",
     "topics": [
@@ -493,8 +493,8 @@
     "name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 138552,
-    "forks": 21723,
+    "stars": 138554,
+    "forks": 21725,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -524,8 +524,8 @@
     "name": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform",
-    "stars": 134266,
-    "forks": 22182,
+    "stars": 134272,
+    "forks": 22183,
     "language": "Python",
     "topics": [
       "agents",
@@ -555,7 +555,7 @@
     "url": "https://github.com/golang/go",
     "description": "The Go programming language",
     "stars": 133561,
-    "forks": 18939,
+    "forks": 18940,
     "language": "Go",
     "topics": [
       "go",
@@ -619,7 +619,7 @@
     "url": "https://github.com/facebook/react-native",
     "description": "A framework for building native applications using React",
     "stars": 125730,
-    "forks": 25148,
+    "forks": 25149,
     "language": "C++",
     "topics": [
       "android",
