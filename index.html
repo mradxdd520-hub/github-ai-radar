@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub AI 雷达 V2 · 每日趋势精选</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -96,61 +97,137 @@
             <!-- Top 5 Cards -->
             <div class="grid gap-6">
                 <template x-for="(project, index) in top5" :key="project.id">
-                    <div class="bg-white rounded-xl shadow-lg p-6 card-hover transition-all duration-300 border-l-4"
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover transition-all duration-300 border-l-4"
                          :class="project.score.featured ? 'border-amber-400' : 'border-purple-400'">
-                        <div class="flex items-start justify-between">
-                            <div class="flex items-start gap-4">
-                                <!-- Rank -->
-                                <div class="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold"
-                                     :class="index === 0 ? 'bg-amber-100 text-amber-600' : 'bg-gray-100 text-gray-600'">
-                                    <span x-text="index + 1"></span>
-                                </div>
-                                <!-- Info -->
-                                <div>
-                                    <div class="flex items-center gap-2">
-                                        <a :href="project.url" target="_blank" 
-                                           class="text-xl font-bold text-gray-800 hover:text-purple-600 transition"
-                                           x-text="project.name"></a>
-                                        <span x-show="project.score.featured" class="text-amber-500">🏆</span>
+                        <!-- 主卡片区域 -->
+                        <div class="p-6">
+                            <div class="flex items-start justify-between">
+                                <div class="flex items-start gap-4">
+                                    <!-- Rank -->
+                                    <div class="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0"
+                                         :class="index === 0 ? 'bg-amber-100 text-amber-600' : 'bg-gray-100 text-gray-600'">
+                                        <span x-text="index + 1"></span>
                                     </div>
-                                    <p class="text-gray-500 mt-1 line-clamp-2" x-text="project.description"></p>
-                                    <!-- Tags -->
-                                    <div class="flex flex-wrap gap-2 mt-3">
-                                        <template x-for="tag in project.score.tags.slice(0, 4)" :key="tag">
-                                            <span class="px-2 py-1 bg-purple-100 text-purple-700 text-xs rounded-full" x-text="tag"></span>
-                                        </template>
-                                        <span class="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full" x-text="project.track"></span>
+                                    <!-- Info -->
+                                    <div>
+                                        <div class="flex items-center gap-2 flex-wrap">
+                                            <a :href="project.url" target="_blank" 
+                                               class="text-xl font-bold text-gray-800 hover:text-purple-600 transition"
+                                               x-text="project.name"></a>
+                                            <span x-show="project.score.featured" class="text-amber-500">🏆</span>
+                                            <span class="px-2 py-0.5 bg-gray-100 text-gray-500 text-xs rounded" x-text="project.language"></span>
+                                        </div>
+                                        <p class="text-gray-500 mt-1 line-clamp-2" x-text="project.description"></p>
+                                        <!-- Tags -->
+                                        <div class="flex flex-wrap gap-2 mt-3">
+                                            <template x-for="tag in project.score.tags.slice(0, 4)" :key="tag">
+                                                <span class="px-2 py-1 bg-purple-100 text-purple-700 text-xs rounded-full" x-text="tag"></span>
+                                            </template>
+                                            <span class="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full" x-text="project.track"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Score -->
+                                <div class="text-right flex-shrink-0 ml-4">
+                                    <div class="text-3xl font-bold" 
+                                         :class="project.score.total >= 8 ? 'text-green-600' : project.score.total >= 7 ? 'text-blue-600' : 'text-gray-600'"
+                                         x-text="project.score.total + '/10'"></div>
+                                    <div class="text-sm text-gray-500" x-text="project.score.verdict"></div>
+                                    <div class="text-sm text-gray-400 mt-2">
+                                        ⭐ <span x-text="project.stars.toLocaleString()"></span>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Score -->
-                            <div class="text-right">
-                                <div class="text-3xl font-bold" 
-                                     :class="project.score.total >= 8 ? 'text-green-600' : project.score.total >= 7 ? 'text-blue-600' : 'text-gray-600'"
-                                     x-text="project.score.total + '/10'"></div>
-                                <div class="text-sm text-gray-500" x-text="project.score.verdict"></div>
-                                <div class="text-sm text-gray-400 mt-2">
-                                    ⭐ <span x-text="project.stars.toLocaleString()"></span>
+                            <!-- Score Details -->
+                            <div class="grid grid-cols-4 gap-4 mt-6 pt-4 border-t">
+                                <div class="text-center">
+                                    <div class="text-sm text-gray-500">🎯 Vibe难度</div>
+                                    <div class="font-bold text-lg" x-text="project.score.vibe_difficulty + '/5'"></div>
                                 </div>
+                                <div class="text-center">
+                                    <div class="text-sm text-gray-500">🏰 护城河</div>
+                                    <div class="font-bold text-lg" x-text="project.score.moat + '/5'"></div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-sm text-gray-500">📈 增长</div>
+                                    <div class="font-bold text-lg" x-text="project.score.growth + '/5'"></div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-sm text-gray-500">💰 变现</div>
+                                    <div class="font-bold text-lg" x-text="project.score.monetization + '/5'"></div>
+                                </div>
+                            </div>
+                            <!-- 展开按钮 -->
+                            <div class="mt-4 pt-4 border-t text-center">
+                                <button @click="project.expanded = !project.expanded" 
+                                        class="text-purple-600 hover:text-purple-800 text-sm font-medium flex items-center justify-center gap-1 mx-auto">
+                                    <span x-text="project.expanded ? '收起详情' : '查看详情'"></span>
+                                    <svg class="w-4 h-4 transition-transform" :class="project.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                    </svg>
+                                </button>
                             </div>
                         </div>
-                        <!-- Score Details -->
-                        <div class="grid grid-cols-4 gap-4 mt-6 pt-4 border-t">
-                            <div class="text-center">
-                                <div class="text-sm text-gray-500">🎯 Vibe难度</div>
-                                <div class="font-bold text-lg" x-text="project.score.vibe_difficulty + '/5'"></div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-sm text-gray-500">🏰 护城河</div>
-                                <div class="font-bold text-lg" x-text="project.score.moat + '/5'"></div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-sm text-gray-500">📈 增长</div>
-                                <div class="font-bold text-lg" x-text="project.score.growth + '/5'"></div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-sm text-gray-500">💰 变现</div>
-                                <div class="font-bold text-lg" x-text="project.score.monetization + '/5'"></div>
+                        
+                        <!-- 展开的详情区域 -->
+                        <div x-show="project.expanded" x-collapse class="bg-gray-50 border-t">
+                            <div class="p-6 space-y-6">
+                                <!-- 项目介绍 -->
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                        📖 项目介绍
+                                    </h4>
+                                    <p class="text-gray-600 leading-relaxed" x-text="project.details?.intro || project.description"></p>
+                                </div>
+                                
+                                <!-- 项目亮点 -->
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                        ✨ 项目亮点
+                                    </h4>
+                                    <ul class="space-y-2">
+                                        <template x-for="(highlight, hIndex) in (project.details?.highlights || [])" :key="hIndex">
+                                            <li class="flex items-start gap-2 text-gray-600">
+                                                <span class="text-green-500 mt-1">✓</span>
+                                                <span x-text="highlight"></span>
+                                            </li>
+                                        </template>
+                                    </ul>
+                                </div>
+                                
+                                <!-- 应用场景和行业 -->
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                            🎯 适合的应用场景
+                                        </h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <template x-for="(scenario, sIndex) in (project.details?.scenarios || [])" :key="sIndex">
+                                                <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full" x-text="scenario"></span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                            🏢 行业推荐
+                                        </h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <template x-for="(industry, iIndex) in (project.details?.industries || [])" :key="iIndex">
+                                                <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full" x-text="industry"></span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- VC 点评 -->
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                        💼 VC 点评
+                                    </h4>
+                                    <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                        <p class="text-gray-600 leading-relaxed text-sm" x-text="project.details?.vc_review || '暂无点评'"></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
