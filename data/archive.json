@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-04-21T14:09:13.347117",
+  "updated_at": "2026-04-21T14:24:40.816231",
   "stats": {
     "total_projects": 33,
-    "total_days": 5,
+    "total_days": 6,
     "featured_count": 17
   },
   "projects": {
@@ -12,8 +12,8 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 360623,
-      "forks": 73545,
+      "stars": 361402,
+      "forks": 73754,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -41,17 +41,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 2,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
       "name": "tensorflow/tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 194779,
-      "forks": 75280,
+      "stars": 194796,
+      "forks": 75273,
       "language": "C++",
       "topics": [
         "deep-learning",
@@ -81,17 +81,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 6,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
       "name": "ohmyzsh/ohmyzsh",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-      "stars": 186336,
-      "forks": 26367,
+      "stars": 186385,
+      "forks": 26365,
       "language": "Shell",
       "topics": [
         "cli",
@@ -127,17 +127,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 7,
-      "days_on_trending": 3
+      "days_on_trending": 4
     },
     "n8n-io-n8n": {
       "id": "n8n-io-n8n",
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 184749,
-      "forks": 56968,
+      "stars": 184922,
+      "forks": 56989,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -180,17 +180,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 7,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
       "name": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 183570,
-      "forks": 46218,
+      "stars": 183617,
+      "forks": 46212,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -224,17 +224,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 10,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
       "name": "ollama/ollama",
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 169457,
-      "forks": 15698,
+      "stars": 169563,
+      "forks": 15710,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -268,9 +268,9 @@
         "verdict": "⏸️ 暂不推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 8,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -317,8 +317,8 @@
       "name": "f/prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 160126,
-      "forks": 20957,
+      "stars": 160238,
+      "forks": 20969,
       "language": "HTML",
       "topics": [
         "ai",
@@ -356,17 +356,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 16,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
       "name": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 159623,
-      "forks": 32934,
+      "stars": 159676,
+      "forks": 32953,
       "language": "Python",
       "topics": [
         "audio",
@@ -407,17 +407,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 12,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
       "name": "langflow-ai/langflow",
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 147127,
-      "forks": 8801,
+      "stars": 147183,
+      "forks": 8810,
       "language": "Python",
       "topics": [
         "agents",
@@ -444,17 +444,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 19,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 146026,
-      "forks": 16598,
+      "stars": 146722,
+      "forks": 16707,
       "language": "TypeScript",
       "topics": [],
       "today_stars": 0,
@@ -474,17 +474,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 20,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 138344,
-      "forks": 21688,
+      "stars": 138552,
+      "forks": 21723,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -527,17 +527,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 8,
-      "days_on_trending": 5
+      "days_on_trending": 6
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "description": "The agent engineering platform",
-      "stars": 134100,
-      "forks": 22162,
+      "stars": 134266,
+      "forks": 22182,
       "language": "Python",
       "topics": [
         "agents",
@@ -580,17 +580,17 @@
         "verdict": "🏆 强烈推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 6,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
       "name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 132703,
-      "forks": 18838,
+      "stars": 132899,
+      "forks": 18865,
       "language": "Python",
       "topics": [
         "ai",
@@ -628,9 +628,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "peak_rank": 10,
-      "days_on_trending": 7
+      "days_on_trending": 8
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
@@ -1309,8 +1309,8 @@
       "name": "EbookFoundation/free-programming-books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
-      "stars": 385571,
-      "forks": 66108,
+      "stars": 385783,
+      "forks": 66115,
       "language": "Python",
       "topics": [
         "books",
@@ -1337,9 +1337,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-16",
+      "last_seen": "2026-04-21",
       "peak_rank": 2,
-      "days_on_trending": 1
+      "days_on_trending": 2
     },
     "snailclimb-javaguide": {
       "id": "snailclimb-javaguide",
