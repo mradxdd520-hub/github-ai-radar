@@ -1,0 +1,480 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-21T14:09:13.281603",
+  "stats": {
+    "total_trending": 30,
+    "ai_projects": 16,
+    "featured": 9
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform",
+      "stars": 133696,
+      "language": "Python",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3.5,
+        "growth": 5,
+        "monetization": 4.5,
+        "total": 8.5,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "Agent"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 184227,
+      "language": "TypeScript",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 4,
+        "total": 8.3,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "可自托管",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars": 132076,
+      "language": "Python",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 5,
+        "moat": 3,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.3,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "自带UI",
+          "可自托管",
+          "10万+Stars",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stars": 159443,
+      "language": "Python",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 4,
+        "growth": 5,
+        "monetization": 3,
+        "total": 8.1,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "10万+Stars",
+          "高参与度"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ebookfoundation-free-programming-books",
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 385571,
+      "language": "Python",
+      "track": "other",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 4,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    }
+  ],
+  "all_ai_projects": [
+    {
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "score": 8.5,
+      "track": "agent"
+    },
+    {
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "score": 8.3,
+      "track": "llm-infra"
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "score": 8.3,
+      "track": "llm-infra"
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "score": 8.1,
+      "track": "llm-infra"
+    },
+    {
+      "id": "ebookfoundation-free-programming-books",
+      "name": "EbookFoundation/free-programming-books",
+      "score": 8.0,
+      "track": "other"
+    },
+    {
+      "id": "significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "score": 8.0,
+      "track": "agent"
+    },
+    {
+      "id": "langgenius-dify",
+      "name": "langgenius/dify",
+      "score": 8.0,
+      "track": "agent"
+    },
+    {
+      "id": "openclaw-openclaw",
+      "name": "openclaw/openclaw",
+      "score": 7.6,
+      "track": "other"
+    },
+    {
+      "id": "affaan-m-everything-claude-code",
+      "name": "affaan-m/everything-claude-code",
+      "score": 7.6,
+      "track": "agent"
+    },
+    {
+      "id": "langflow-ai-langflow",
+      "name": "langflow-ai/langflow",
+      "score": 7.3,
+      "track": "agent"
+    },
+    {
+      "id": "anomalyco-opencode",
+      "name": "anomalyco/opencode",
+      "score": 7.3,
+      "track": "agent"
+    },
+    {
+      "id": "f-prompts.chat",
+      "name": "f/prompts.chat",
+      "score": 7.2,
+      "track": "llm-infra"
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "score": 7.2,
+      "track": "agent"
+    },
+    {
+      "id": "snailclimb-javaguide",
+      "name": "Snailclimb/JavaGuide",
+      "score": 7.0,
+      "track": "agent"
+    },
+    {
+      "id": "tensorflow-tensorflow",
+      "name": "tensorflow/tensorflow",
+      "score": 6.5,
+      "track": "ml-framework"
+    },
+    {
+      "id": "ollama-ollama",
+      "name": "ollama/ollama",
+      "score": 6.2,
+      "track": "llm-infra"
+    }
+  ],
+  "all_trending": [
+    {
+      "rank": 1,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "stars": 442981,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 2,
+      "name": "EbookFoundation/free-programming-books",
+      "stars": 385571,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 3,
+      "name": "openclaw/openclaw",
+      "stars": 358183,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 4,
+      "name": "vinta/awesome-python",
+      "stars": 292556,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 5,
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "stars": 286223,
+      "today_stars": 0,
+      "language": null,
+      "is_ai": false
+    },
+    {
+      "rank": 6,
+      "name": "facebook/react",
+      "stars": 244551,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 7,
+      "name": "torvalds/linux",
+      "stars": 229140,
+      "today_stars": 0,
+      "language": "C",
+      "is_ai": false
+    },
+    {
+      "rank": 8,
+      "name": "ossu/computer-science",
+      "stars": 203061,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": false
+    },
+    {
+      "rank": 9,
+      "name": "tensorflow/tensorflow",
+      "stars": 194749,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": true
+    },
+    {
+      "rank": 10,
+      "name": "n8n-io/n8n",
+      "stars": 184227,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 11,
+      "name": "microsoft/vscode",
+      "stars": 183901,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 12,
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 183461,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 13,
+      "name": "flutter/flutter",
+      "stars": 175988,
+      "today_stars": 0,
+      "language": "Dart",
+      "is_ai": false
+    },
+    {
+      "rank": 14,
+      "name": "twbs/bootstrap",
+      "stars": 174167,
+      "today_stars": 0,
+      "language": "MDX",
+      "is_ai": false
+    },
+    {
+      "rank": 15,
+      "name": "avelino/awesome-go",
+      "stars": 170071,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": false
+    },
+    {
+      "rank": 16,
+      "name": "ollama/ollama",
+      "stars": 169114,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    },
+    {
+      "rank": 17,
+      "name": "f/prompts.chat",
+      "stars": 159820,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": true
+    },
+    {
+      "rank": 18,
+      "name": "huggingface/transformers",
+      "stars": 159443,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 19,
+      "name": "affaan-m/everything-claude-code",
+      "stars": 157504,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": true
+    },
+    {
+      "rank": 20,
+      "name": "Snailclimb/JavaGuide",
+      "stars": 154984,
+      "today_stars": 0,
+      "language": "Java",
+      "is_ai": true
+    },
+    {
+      "rank": 21,
+      "name": "obra/superpowers",
+      "stars": 154391,
+      "today_stars": 0,
+      "language": "Shell",
+      "is_ai": true
+    },
+    {
+      "rank": 22,
+      "name": "langflow-ai/langflow",
+      "stars": 146990,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 23,
+      "name": "anomalyco/opencode",
+      "stars": 143903,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 24,
+      "name": "vercel/next.js",
+      "stars": 138950,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 25,
+      "name": "Genymobile/scrcpy",
+      "stars": 138537,
+      "today_stars": 0,
+      "language": "C",
+      "is_ai": false
+    },
+    {
+      "rank": 26,
+      "name": "langgenius/dify",
+      "stars": 137917,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 27,
+      "name": "langchain-ai/langchain",
+      "stars": 133696,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 28,
+      "name": "golang/go",
+      "stars": 133488,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": false
+    },
+    {
+      "rank": 29,
+      "name": "open-webui/open-webui",
+      "stars": 132076,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 30,
+      "name": "microsoft/PowerToys",
+      "stars": 131704,
+      "today_stars": 0,
+      "language": "C#",
+      "is_ai": false
+    }
+  ]
+}

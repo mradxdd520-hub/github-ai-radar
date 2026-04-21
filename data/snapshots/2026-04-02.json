@@ -1,0 +1,509 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-21T14:09:13.149245",
+  "stats": {
+    "total_trending": 30,
+    "ai_projects": 20,
+    "featured": 13
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "id": "lobehub-lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "description": "🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers (OpenAI / Claude / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge base / web crawler / searxng), Tools/Plugins integration, TTS/STT Voice Conversation...",
+      "stars": 146234,
+      "language": "TypeScript",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 5,
+        "moat": 3.5,
+        "growth": 5,
+        "monetization": 4.5,
+        "total": 9.1,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "自带UI",
+          "基础设施",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "Agent"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 123567,
+      "language": "TypeScript",
+      "track": "ai-ui",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 5,
+        "total": 8.7,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "可自托管",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "AI UI"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "automatic1111-stable-diffusion-webui",
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "stars": 156234,
+      "language": "Python",
+      "track": "ai-ui",
+      "score": {
+        "vibe_difficulty": 5,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 4,
+        "total": 8.6,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "自带UI",
+          "10万+Stars",
+          "高参与度",
+          "AI UI"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "comfyanonymous-comfyui",
+      "name": "comfyanonymous/ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "stars": 98723,
+      "language": "Python",
+      "track": "ai-ui",
+      "score": {
+        "vibe_difficulty": 5,
+        "moat": 3,
+        "growth": 4,
+        "monetization": 5,
+        "total": 8.5,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "自带UI",
+          "5万+Stars",
+          "商业化路径清晰",
+          "AI UI"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform",
+      "stars": 132065,
+      "language": "Python",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3.5,
+        "growth": 5,
+        "monetization": 4.5,
+        "total": 8.5,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "Agent"
+        ],
+        "verdict": "🏆 强烈推荐"
+      }
+    }
+  ],
+  "all_ai_projects": [
+    {
+      "id": "lobehub-lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "score": 9.1,
+      "track": "agent"
+    },
+    {
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "score": 8.7,
+      "track": "ai-ui"
+    },
+    {
+      "id": "automatic1111-stable-diffusion-webui",
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "score": 8.6,
+      "track": "ai-ui"
+    },
+    {
+      "id": "comfyanonymous-comfyui",
+      "name": "comfyanonymous/ComfyUI",
+      "score": 8.5,
+      "track": "ai-ui"
+    },
+    {
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "score": 8.5,
+      "track": "agent"
+    },
+    {
+      "id": "danny-avila-librechat",
+      "name": "danny-avila/LibreChat",
+      "score": 8.3,
+      "track": "agent"
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "score": 8.3,
+      "track": "llm-infra"
+    },
+    {
+      "id": "significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "score": 8.0,
+      "track": "agent"
+    },
+    {
+      "id": "gpt-engineer-org-gpt-engineer",
+      "name": "gpt-engineer-org/gpt-engineer",
+      "score": 8.0,
+      "track": "agent"
+    },
+    {
+      "id": "anthropics-claude-code",
+      "name": "anthropics/claude-code",
+      "score": 7.8,
+      "track": "agent"
+    },
+    {
+      "id": "openclaw-openclaw",
+      "name": "openclaw/openclaw",
+      "score": 7.6,
+      "track": "other"
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "score": 7.6,
+      "track": "ml-framework"
+    },
+    {
+      "id": "mem0ai-mem0",
+      "name": "mem0ai/mem0",
+      "score": 7.5,
+      "track": "agent"
+    },
+    {
+      "id": "f-awesome-chatgpt-prompts",
+      "name": "f/awesome-chatgpt-prompts",
+      "score": 7.4,
+      "track": "llm-infra"
+    },
+    {
+      "id": "mintplex-labs-anything-llm",
+      "name": "Mintplex-Labs/anything-llm",
+      "score": 7.3,
+      "track": "agent"
+    },
+    {
+      "id": "affaan-m-everything-claude-code",
+      "name": "affaan-m/everything-claude-code",
+      "score": 7.3,
+      "track": "agent"
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "score": 7.2,
+      "track": "agent"
+    },
+    {
+      "id": "abi-screenshot-to-code",
+      "name": "abi/screenshot-to-code",
+      "score": 7.1,
+      "track": "llm-infra"
+    },
+    {
+      "id": "ggml-org-llama.cpp",
+      "name": "ggml-org/llama.cpp",
+      "score": 6.4,
+      "track": "llm-infra"
+    },
+    {
+      "id": "ollama-ollama",
+      "name": "ollama/ollama",
+      "score": 6.2,
+      "track": "llm-infra"
+    }
+  ],
+  "all_trending": [
+    {
+      "rank": 1,
+      "name": "sindresorhus/awesome",
+      "stars": 451048,
+      "today_stars": 0,
+      "language": null,
+      "is_ai": false
+    },
+    {
+      "rank": 2,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "stars": 440494,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 3,
+      "name": "kamranahmedse/developer-roadmap",
+      "stars": 352038,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 4,
+      "name": "openclaw/openclaw",
+      "stars": 345369,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 5,
+      "name": "vinta/awesome-python",
+      "stars": 290219,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 6,
+      "name": "public-apis/public-apis",
+      "stars": 343205,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 7,
+      "name": "donnemartin/system-design-primer",
+      "stars": 321054,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 8,
+      "name": "ollama/ollama",
+      "stars": 256823,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    },
+    {
+      "rank": 9,
+      "name": "TheAlgorithms/Python",
+      "stars": 208015,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 10,
+      "name": "codecrafters-io/build-your-own-x",
+      "stars": 365824,
+      "today_stars": 0,
+      "language": "Markdown",
+      "is_ai": false
+    },
+    {
+      "rank": 11,
+      "name": "ggml-org/llama.cpp",
+      "stars": 85623,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": true
+    },
+    {
+      "rank": 12,
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 187234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 13,
+      "name": "huggingface/transformers",
+      "stars": 158723,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 14,
+      "name": "anthropics/claude-code",
+      "stars": 156890,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 15,
+      "name": "f/awesome-chatgpt-prompts",
+      "stars": 125345,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": true
+    },
+    {
+      "rank": 16,
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 156234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 17,
+      "name": "comfyanonymous/ComfyUI",
+      "stars": 98723,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 18,
+      "name": "n8n-io/n8n",
+      "stars": 123567,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 19,
+      "name": "abi/screenshot-to-code",
+      "stars": 87234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 20,
+      "name": "gpt-engineer-org/gpt-engineer",
+      "stars": 76234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 21,
+      "name": "mem0ai/mem0",
+      "stars": 68234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 22,
+      "name": "danny-avila/LibreChat",
+      "stars": 54234,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 23,
+      "name": "Mintplex-Labs/anything-llm",
+      "stars": 52678,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": true
+    },
+    {
+      "rank": 24,
+      "name": "lobehub/lobe-chat",
+      "stars": 146234,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 25,
+      "name": "reflex-dev/reflex",
+      "stars": 56234,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 26,
+      "name": "affaan-m/everything-claude-code",
+      "stars": 132459,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": true
+    },
+    {
+      "rank": 27,
+      "name": "langchain-ai/langchain",
+      "stars": 132065,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 28,
+      "name": "obra/superpowers",
+      "stars": 131313,
+      "today_stars": 0,
+      "language": "Shell",
+      "is_ai": true
+    },
+    {
+      "rank": 29,
+      "name": "microsoft/PowerToys",
+      "stars": 131240,
+      "today_stars": 0,
+      "language": "C#",
+      "is_ai": false
+    },
+    {
+      "rank": 30,
+      "name": "open-webui/open-webui",
+      "stars": 129622,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    }
+  ]
+}

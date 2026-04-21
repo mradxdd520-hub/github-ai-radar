@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub AI 雷达 V2 · 每日趋势精选</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen" x-data="app()" x-init="init()">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold flex items-center gap-2">
+                        🤖 GitHub AI 雷达
+                        <span class="text-sm bg-white/20 px-2 py-1 rounded">V2</span>
+                    </h1>
+                    <p class="text-white/80 mt-1">每日趋势精选 · Vibecoding 变现潜力分析</p>
+                </div>
+                <nav class="flex gap-4">
+                    <a href="#" @click.prevent="currentPage = 'home'" 
+                       :class="currentPage === 'home' ? 'bg-white/20' : 'hover:bg-white/10'"
+                       class="px-4 py-2 rounded-lg transition">首页</a>
+                    <a href="#" @click.prevent="currentPage = 'archive'" 
+                       :class="currentPage === 'archive' ? 'bg-white/20' : 'hover:bg-white/10'"
+                       class="px-4 py-2 rounded-lg transition">归档库</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="bg-white border-b shadow-sm">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-center gap-12">
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600" x-text="stats.total_projects">0</div>
+                    <div class="text-gray-500 text-sm">累计归档</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-green-600" x-text="todayStats.ai_projects">0</div>
+                    <div class="text-gray-500 text-sm">今日 AI 项目</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-blue-600" x-text="stats.total_days">0</div>
+                    <div class="text-gray-500 text-sm">已扫描天数</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-amber-600" x-text="stats.featured_count">0</div>
+                    <div class="text-gray-500 text-sm">🏆 精选项目</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Loading -->
+        <div x-show="loading" class="text-center py-20">
+            <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
+            <p class="mt-4 text-gray-500">正在加载数据...</p>
+        </div>
+
+        <!-- Home Page -->
+        <div x-show="!loading && currentPage === 'home'" x-cloak>
+            <!-- Date Selector -->
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">🚀 创业黑马榜</h2>
+                <div class="flex items-center gap-2">
+                    <button @click="changeDate(-1)" class="p-2 hover:bg-gray-100 rounded-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg font-medium" x-text="selectedDate"></span>
+                    <button @click="changeDate(1)" class="p-2 hover:bg-gray-100 rounded-lg" :disabled="selectedDate === todayDate">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Top 5 Cards -->
+            <div class="grid gap-6">
+                <template x-for="(project, index) in top5" :key="project.id">
+                    <div class="bg-white rounded-xl shadow-lg p-6 card-hover transition-all duration-300 border-l-4"
+                         :class="project.score.featured ? 'border-amber-400' : 'border-purple-400'">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-start gap-4">
+                                <!-- Rank -->
+                                <div class="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold"
+                                     :class="index === 0 ? 'bg-amber-100 text-amber-600' : 'bg-gray-100 text-gray-600'">
+                                    <span x-text="index + 1"></span>
+                                </div>
+                                <!-- Info -->
+                                <div>
+                                    <div class="flex items-center gap-2">
+                                        <a :href="project.url" target="_blank" 
+                                           class="text-xl font-bold text-gray-800 hover:text-purple-600 transition"
+                                           x-text="project.name"></a>
+                                        <span x-show="project.score.featured" class="text-amber-500">🏆</span>
+                                    </div>
+                                    <p class="text-gray-500 mt-1 line-clamp-2" x-text="project.description"></p>
+                                    <!-- Tags -->
+                                    <div class="flex flex-wrap gap-2 mt-3">
+                                        <template x-for="tag in project.score.tags.slice(0, 4)" :key="tag">
+                                            <span class="px-2 py-1 bg-purple-100 text-purple-700 text-xs rounded-full" x-text="tag"></span>
+                                        </template>
+                                        <span class="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full" x-text="project.track"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Score -->
+                            <div class="text-right">
+                                <div class="text-3xl font-bold" 
+                                     :class="project.score.total >= 8 ? 'text-green-600' : project.score.total >= 7 ? 'text-blue-600' : 'text-gray-600'"
+                                     x-text="project.score.total + '/10'"></div>
+                                <div class="text-sm text-gray-500" x-text="project.score.verdict"></div>
+                                <div class="text-sm text-gray-400 mt-2">
+                                    ⭐ <span x-text="project.stars.toLocaleString()"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Score Details -->
+                        <div class="grid grid-cols-4 gap-4 mt-6 pt-4 border-t">
+                            <div class="text-center">
+                                <div class="text-sm text-gray-500">🎯 Vibe难度</div>
+                                <div class="font-bold text-lg" x-text="project.score.vibe_difficulty + '/5'"></div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-sm text-gray-500">🏰 护城河</div>
+                                <div class="font-bold text-lg" x-text="project.score.moat + '/5'"></div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-sm text-gray-500">📈 增长</div>
+                                <div class="font-bold text-lg" x-text="project.score.growth + '/5'"></div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-sm text-gray-500">💰 变现</div>
+                                <div class="font-bold text-lg" x-text="project.score.monetization + '/5'"></div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- GitHub Trending -->
+            <h2 class="text-2xl font-bold text-gray-800 mt-12 mb-6">🔥 GitHub Trending 今日热榜</h2>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-3 text-left text-sm font-medium text-gray-500">#</th>
+                            <th class="px-4 py-3 text-left text-sm font-medium text-gray-500">项目</th>
+                            <th class="px-4 py-3 text-left text-sm font-medium text-gray-500">语言</th>
+                            <th class="px-4 py-3 text-right text-sm font-medium text-gray-500">⭐ Stars</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">AI</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y">
+                        <template x-for="(item, index) in allTrending.slice(0, 20)" :key="index">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-500" x-text="item.rank || (index + 1)"></td>
+                                <td class="px-4 py-3">
+                                    <span class="font-medium text-gray-800" x-text="item.name"></span>
+                                </td>
+                                <td class="px-4 py-3">
+                                    <span class="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded" x-text="item.language || '-'"></span>
+                                </td>
+                                <td class="px-4 py-3 text-right text-gray-600" x-text="item.stars?.toLocaleString() || '-'"></td>
+                                <td class="px-4 py-3 text-center">
+                                    <span x-show="item.is_ai" class="text-green-500">✓</span>
+                                    <span x-show="!item.is_ai" class="text-gray-300">-</span>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Archive Page -->
+        <div x-show="!loading && currentPage === 'archive'" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">📚 归档项目库</h2>
+                <!-- Search & Filter -->
+                <div class="flex gap-4">
+                    <input type="text" x-model="searchQuery" placeholder="搜索项目..."
+                           class="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                    <select x-model="filterTrack" class="px-4 py-2 border rounded-lg">
+                        <option value="">全部赛道</option>
+                        <option value="agent">Agent</option>
+                        <option value="llm-infra">LLM 基础设施</option>
+                        <option value="rag">RAG</option>
+                        <option value="ai-ui">AI UI</option>
+                        <option value="automation">自动化</option>
+                        <option value="coding">Coding</option>
+                        <option value="ml-framework">ML 框架</option>
+                    </select>
+                    <select x-model="sortBy" class="px-4 py-2 border rounded-lg">
+                        <option value="total">按总分</option>
+                        <option value="vibe">按 Vibe 难度</option>
+                        <option value="growth">按增长潜力</option>
+                        <option value="days">按上榜天数</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex gap-2 mb-6">
+                <button @click="filterFeatured = null" 
+                        :class="filterFeatured === null ? 'bg-purple-600 text-white' : 'bg-gray-100'"
+                        class="px-4 py-2 rounded-lg transition">全部</button>
+                <button @click="filterFeatured = true"
+                        :class="filterFeatured === true ? 'bg-amber-500 text-white' : 'bg-gray-100'"
+                        class="px-4 py-2 rounded-lg transition">🏆 精选</button>
+                <button @click="filterScore = 8"
+                        :class="filterScore === 8 ? 'bg-green-600 text-white' : 'bg-gray-100'"
+                        class="px-4 py-2 rounded-lg transition">高分 ≥8</button>
+                <button @click="filterVibe = 4"
+                        :class="filterVibe === 4 ? 'bg-blue-600 text-white' : 'bg-gray-100'"
+                        class="px-4 py-2 rounded-lg transition">⚡ Vibe ≥4</button>
+            </div>
+
+            <!-- Archive Table -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-3 text-left text-sm font-medium text-gray-500">项目</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">总分</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">Vibe</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">护城河</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">增长</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">变现</th>
+                            <th class="px-4 py-3 text-left text-sm font-medium text-gray-500">赛道</th>
+                            <th class="px-4 py-3 text-center text-sm font-medium text-gray-500">上榜</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y">
+                        <template x-for="project in filteredArchive" :key="project.id">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">
+                                    <div class="flex items-center gap-2">
+                                        <span x-show="project.score.featured" class="text-amber-500">🏆</span>
+                                        <a :href="project.url" target="_blank" 
+                                           class="font-medium text-gray-800 hover:text-purple-600"
+                                           x-text="project.name"></a>
+                                    </div>
+                                    <div class="text-xs text-gray-400" x-text="project.language"></div>
+                                </td>
+                                <td class="px-4 py-3 text-center">
+                                    <span class="font-bold"
+                                          :class="project.score.total >= 8 ? 'text-green-600' : 'text-gray-600'"
+                                          x-text="project.score.total"></span>
+                                </td>
+                                <td class="px-4 py-3 text-center" x-text="project.score.vibe_difficulty"></td>
+                                <td class="px-4 py-3 text-center" x-text="project.score.moat"></td>
+                                <td class="px-4 py-3 text-center" x-text="project.score.growth"></td>
+                                <td class="px-4 py-3 text-center" x-text="project.score.monetization"></td>
+                                <td class="px-4 py-3">
+                                    <span class="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded" x-text="project.track"></span>
+                                </td>
+                                <td class="px-4 py-3 text-center text-gray-500" x-text="project.days_on_trending + '天'"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-center text-gray-500 mt-4" x-text="'共 ' + filteredArchive.length + ' 个项目'"></div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>GitHub AI 雷达 V2 · 每日自动更新</p>
+            <p class="text-sm mt-2">数据来源：GitHub Trending · 评分体系：Vibecoding 变现潜力分析</p>
+        </div>
+    </footer>
+
+    <script>
+        function app() {
+            return {
+                loading: true,
+                currentPage: 'home',
+                selectedDate: '',
+                todayDate: '',
+                availableDates: [],
+                stats: { total_projects: 0, total_days: 0, featured_count: 0 },
+                todayStats: { ai_projects: 0, featured: 0 },
+                top5: [],
+                allTrending: [],
+                archive: [],
+                searchQuery: '',
+                filterTrack: '',
+                filterFeatured: null,
+                filterScore: null,
+                filterVibe: null,
+                sortBy: 'total',
+
+                async init() {
+                    // 设置今日日期
+                    const today = new Date();
+                    this.todayDate = today.toISOString().split('T')[0];
+                    this.selectedDate = this.todayDate;
+
+                    try {
+                        // 加载归档数据
+                        const archiveRes = await fetch('data/archive.json');
+                        const archiveData = await archiveRes.json();
+                        this.stats = archiveData.stats;
+                        this.archive = Object.values(archiveData.projects);
+
+                        // 获取可用日期
+                        this.availableDates = [...new Set(this.archive.map(p => p.first_seen))].sort().reverse();
+                        
+                        // 使用最新的可用日期
+                        if (this.availableDates.length > 0) {
+                            this.selectedDate = this.availableDates[0];
+                        }
+
+                        // 加载今日快照
+                        await this.loadSnapshot(this.selectedDate);
+                    } catch (error) {
+                        console.error('加载数据失败:', error);
+                    }
+                    
+                    this.loading = false;
+                },
+
+                async loadSnapshot(date) {
+                    try {
+                        const res = await fetch(`data/snapshots/${date}.json`);
+                        const data = await res.json();
+                        this.top5 = data.top5;
+                        this.allTrending = data.all_trending || [];
+                        this.todayStats = data.stats;
+                    } catch (error) {
+                        console.error('加载快照失败:', error);
+                        this.top5 = [];
+                        this.allTrending = [];
+                    }
+                },
+
+                async changeDate(delta) {
+                    const currentIndex = this.availableDates.indexOf(this.selectedDate);
+                    const newIndex = currentIndex - delta;
+                    if (newIndex >= 0 && newIndex < this.availableDates.length) {
+                        this.selectedDate = this.availableDates[newIndex];
+                        await this.loadSnapshot(this.selectedDate);
+                    }
+                },
+
+                get filteredArchive() {
+                    let result = [...this.archive];
+
+                    // 搜索
+                    if (this.searchQuery) {
+                        const query = this.searchQuery.toLowerCase();
+                        result = result.filter(p => 
+                            p.name.toLowerCase().includes(query) ||
+                            (p.description && p.description.toLowerCase().includes(query))
+                        );
+                    }
+
+                    // 赛道筛选
+                    if (this.filterTrack) {
+                        result = result.filter(p => p.track === this.filterTrack);
+                    }
+
+                    // 精选筛选
+                    if (this.filterFeatured !== null) {
+                        result = result.filter(p => p.score.featured === this.filterFeatured);
+                    }
+
+                    // 分数筛选
+                    if (this.filterScore) {
+                        result = result.filter(p => p.score.total >= this.filterScore);
+                    }
+
+                    // Vibe 筛选
+                    if (this.filterVibe) {
+                        result = result.filter(p => p.score.vibe_difficulty >= this.filterVibe);
+                    }
+
+                    // 排序
+                    const sortMap = {
+                        'total': (a, b) => b.score.total - a.score.total,
+                        'vibe': (a, b) => b.score.vibe_difficulty - a.score.vibe_difficulty,
+                        'growth': (a, b) => b.score.growth - a.score.growth,
+                        'days': (a, b) => b.days_on_trending - a.days_on_trending,
+                    };
+                    result.sort(sortMap[this.sortBy] || sortMap['total']);
+
+                    return result;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-21T14:09:13.221293",
+  "stats": {
+    "total_trending": 30,
+    "ai_projects": 19,
+    "featured": 11
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "id": "lobehub-lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "description": "🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers, Knowledge Base, Multi-Modals, TTS & STT.",
+      "stars": 84523,
+      "language": "TypeScript",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 4,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.2,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "5万+Stars",
+          "高参与度",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 185742,
+      "language": "TypeScript",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "可自托管",
+          "10万+Stars",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars": 104825,
+      "language": "Svelte",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "自带UI",
+          "可自托管",
+          "10万+Stars",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars": 104825,
+      "language": "Svelte",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "自带UI",
+          "可自托管",
+          "10万+Stars",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "anthropics-claude-code",
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "stars": 171248,
+      "language": "TypeScript",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3.5,
+        "growth": 4.5,
+        "monetization": 3.5,
+        "total": 7.8,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "大厂背书",
+          "10万+Stars",
+          "Agent"
+        ],
+        "verdict": "✅ 值得关注"
+      }
+    }
+  ],
+  "all_ai_projects": [
+    {
+      "id": "lobehub-lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "score": 8.2,
+      "track": "llm-infra"
+    },
+    {
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "score": 8.0,
+      "track": "llm-infra"
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "score": 8.0,
+      "track": "llm-infra"
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "score": 8.0,
+      "track": "llm-infra"
+    },
+    {
+      "id": "anthropics-claude-code",
+      "name": "anthropics/claude-code",
+      "score": 7.8,
+      "track": "agent"
+    },
+    {
+      "id": "openclaw-openclaw",
+      "name": "openclaw/openclaw",
+      "score": 7.6,
+      "track": "other"
+    },
+    {
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "score": 7.6,
+      "track": "agent"
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "score": 7.6,
+      "track": "ml-framework"
+    },
+    {
+      "id": "crewaiinc-crewai",
+      "name": "crewAIInc/crewAI",
+      "score": 7.6,
+      "track": "agent"
+    },
+    {
+      "id": "significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "score": 7.6,
+      "track": "agent"
+    },
+    {
+      "id": "comfyanonymous-comfyui",
+      "name": "comfyanonymous/ComfyUI",
+      "score": 7.5,
+      "track": "ai-ui"
+    },
+    {
+      "id": "janhq-jan",
+      "name": "janhq/jan",
+      "score": 7.4,
+      "track": "llm-infra"
+    },
+    {
+      "id": "langgenius-dify",
+      "name": "langgenius/dify",
+      "score": 7.3,
+      "track": "agent"
+    },
+    {
+      "id": "all-hands-ai-openhands",
+      "name": "All-Hands-AI/OpenHands",
+      "score": 7.1,
+      "track": "agent"
+    },
+    {
+      "id": "mem0ai-mem0",
+      "name": "mem0ai/mem0",
+      "score": 6.8,
+      "track": "agent"
+    },
+    {
+      "id": "browser-use-browser-use",
+      "name": "browser-use/browser-use",
+      "score": 6.8,
+      "track": "agent"
+    },
+    {
+      "id": "ggml-org-llama.cpp",
+      "name": "ggml-org/llama.cpp",
+      "score": 6.4,
+      "track": "llm-infra"
+    },
+    {
+      "id": "ollama-ollama",
+      "name": "ollama/ollama",
+      "score": 6.2,
+      "track": "llm-infra"
+    },
+    {
+      "id": "kubernetes-kubernetes",
+      "name": "kubernetes/kubernetes",
+      "score": 6.2,
+      "track": "other"
+    }
+  ],
+  "all_trending": [
+    {
+      "rank": 1,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "stars": 442898,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 2,
+      "name": "openclaw/openclaw",
+      "stars": 357419,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 3,
+      "name": "kamranahmedse/developer-roadmap",
+      "stars": 352944,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 4,
+      "name": "vinta/awesome-python",
+      "stars": 292330,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 5,
+      "name": "facebook/react",
+      "stars": 244505,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 6,
+      "name": "langchain-ai/langchain",
+      "stars": 181253,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 7,
+      "name": "n8n-io/n8n",
+      "stars": 185742,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 8,
+      "name": "langgenius/dify",
+      "stars": 121536,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 9,
+      "name": "anthropics/claude-code",
+      "stars": 171248,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 10,
+      "name": "open-webui/open-webui",
+      "stars": 104825,
+      "today_stars": 0,
+      "language": "Svelte",
+      "is_ai": true
+    },
+    {
+      "rank": 11,
+      "name": "microsoft/vscode",
+      "stars": 178432,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 12,
+      "name": "huggingface/transformers",
+      "stars": 162543,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 13,
+      "name": "comfyanonymous/ComfyUI",
+      "stars": 98752,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 14,
+      "name": "crewAIInc/crewAI",
+      "stars": 58423,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 15,
+      "name": "ggml-org/llama.cpp",
+      "stars": 89234,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": true
+    },
+    {
+      "rank": 16,
+      "name": "ollama/ollama",
+      "stars": 149582,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    },
+    {
+      "rank": 17,
+      "name": "All-Hands-AI/OpenHands",
+      "stars": 78452,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 18,
+      "name": "mem0ai/mem0",
+      "stars": 42536,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 19,
+      "name": "lobehub/lobe-chat",
+      "stars": 84523,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 20,
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 175432,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 21,
+      "name": "browser-use/browser-use",
+      "stars": 38421,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 22,
+      "name": "fastapi/fastapi",
+      "stars": 87235,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 23,
+      "name": "yt-dlp/yt-dlp",
+      "stars": 108425,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": false
+    },
+    {
+      "rank": 24,
+      "name": "janhq/jan",
+      "stars": 45621,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 25,
+      "name": "open-webui/open-webui",
+      "stars": 104825,
+      "today_stars": 0,
+      "language": "Svelte",
+      "is_ai": true
+    },
+    {
+      "rank": 26,
+      "name": "microsoft/PowerToys",
+      "stars": 131657,
+      "today_stars": 0,
+      "language": "C#",
+      "is_ai": false
+    },
+    {
+      "rank": 27,
+      "name": "Chalarangelo/30-seconds-of-code",
+      "stars": 127465,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 28,
+      "name": "facebook/react-native",
+      "stars": 125672,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": false
+    },
+    {
+      "rank": 29,
+      "name": "krahets/hello-algo",
+      "stars": 125256,
+      "today_stars": 0,
+      "language": "Java",
+      "is_ai": false
+    },
+    {
+      "rank": 30,
+      "name": "kubernetes/kubernetes",
+      "stars": 121714,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    }
+  ]
+}
