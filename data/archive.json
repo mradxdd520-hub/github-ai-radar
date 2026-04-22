@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-04-22T09:58:45.640797",
+  "updated_at": "2026-04-22T10:00:41.479877",
   "stats": {
     "total_projects": 33,
     "total_days": 7,
@@ -13,7 +13,7 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "stars": 361908,
-      "forks": 73864,
+      "forks": 73865,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -43,7 +43,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 2,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
@@ -83,7 +83,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 6,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -182,14 +182,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 7,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
       "name": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 183645,
+      "stars": 183646,
       "forks": 46218,
       "language": "Python",
       "topics": [
@@ -226,7 +226,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 10,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -270,14 +270,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 8,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
       "name": "affaan-m/everything-claude-code",
       "url": "https://github.com/affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 163231,
+      "stars": 163232,
       "forks": 25346,
       "language": "JavaScript",
       "topics": [
@@ -310,7 +310,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 15,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "f-prompts.chat": {
       "id": "f-prompts.chat",
@@ -358,7 +358,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 16,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -409,7 +409,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 12,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -446,7 +446,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 19,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
@@ -454,7 +454,7 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "stars": 147149,
-      "forks": 16779,
+      "forks": 16780,
       "language": "TypeScript",
       "topics": [],
       "today_stars": 0,
@@ -476,14 +476,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 20,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 138671,
+      "stars": 138672,
       "forks": 21739,
       "language": "TypeScript",
       "topics": [
@@ -529,7 +529,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 8,
-      "days_on_trending": 9
+      "days_on_trending": 10
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
@@ -582,7 +582,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 6,
-      "days_on_trending": 10
+      "days_on_trending": 11
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
@@ -630,7 +630,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "peak_rank": 10,
-      "days_on_trending": 11
+      "days_on_trending": 12
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
