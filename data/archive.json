@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-04-24T09:58:31.353910",
+  "updated_at": "2026-04-24T09:59:52.159212",
   "stats": {
     "total_projects": 35,
-    "total_days": 9,
+    "total_days": 10,
     "featured_count": 17
   },
   "projects": {
@@ -41,9 +41,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 2,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
@@ -81,9 +81,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 6,
-      "days_on_trending": 12
+      "days_on_trending": 13
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -136,7 +136,7 @@
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 185359,
+      "stars": 185361,
       "forks": 57068,
       "language": "TypeScript",
       "topics": [
@@ -180,9 +180,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 7,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
@@ -224,9 +224,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 10,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -268,16 +268,16 @@
         "verdict": "⏸️ 暂不推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 8,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
       "name": "affaan-m/everything-claude-code",
       "url": "https://github.com/affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 165384,
+      "stars": 165385,
       "forks": 25668,
       "language": "JavaScript",
       "topics": [
@@ -308,9 +308,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 15,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "f-prompts.chat": {
       "id": "f-prompts.chat",
@@ -356,9 +356,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 15,
-      "days_on_trending": 12
+      "days_on_trending": 13
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -407,9 +407,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 12,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -444,9 +444,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 19,
-      "days_on_trending": 12
+      "days_on_trending": 13
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
@@ -454,7 +454,7 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "stars": 148402,
-      "forks": 16996,
+      "forks": 16997,
       "language": "TypeScript",
       "topics": [],
       "today_stars": 0,
@@ -474,16 +474,16 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 18,
-      "days_on_trending": 12
+      "days_on_trending": 13
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 138941,
+      "stars": 138943,
       "forks": 21784,
       "language": "TypeScript",
       "topics": [
@@ -527,16 +527,16 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 8,
-      "days_on_trending": 13
+      "days_on_trending": 14
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "description": "The agent engineering platform",
-      "stars": 134696,
+      "stars": 134697,
       "forks": 22263,
       "language": "Python",
       "topics": [
@@ -580,9 +580,9 @@
         "verdict": "🏆 强烈推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 6,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
@@ -628,9 +628,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 10,
-      "days_on_trending": 15
+      "days_on_trending": 16
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
@@ -1089,7 +1089,7 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 165731,
+      "stars": 165733,
       "forks": 14538,
       "language": "Shell",
       "topics": [],
@@ -1110,9 +1110,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 15,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "crewaiinc-crewai": {
       "id": "crewaiinc-crewai",
@@ -1300,9 +1300,9 @@
         "verdict": "⏸️ 暂不推荐"
       },
       "first_seen": "2026-04-15",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 27,
-      "days_on_trending": 4
+      "days_on_trending": 5
     },
     "ebookfoundation-free-programming-books": {
       "id": "ebookfoundation-free-programming-books",
@@ -1437,16 +1437,16 @@
         "vc_review": "【市场洞察】DigitalPlatDev/FreeDomain 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 158,483 Stars，属于头部开源项目。1.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【投资建议】综合评分 6.8/10，可以观望。关注项目后续发展，等待更好的时机。"
       },
       "first_seen": "2026-04-24",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 19,
-      "days_on_trending": 1
+      "days_on_trending": 2
     },
     "anthropics-skills": {
       "id": "anthropics-skills",
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
-      "stars": 122952,
+      "stars": 122951,
       "forks": 14352,
       "language": "Python",
       "topics": [
@@ -1493,9 +1493,9 @@
         "vc_review": "【市场洞察】anthropics/skills 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 122,952 Stars，属于头部开源项目。11.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.8/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
       },
       "first_seen": "2026-04-24",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "peak_rank": 29,
-      "days_on_trending": 1
+      "days_on_trending": 2
     }
   }
 }
