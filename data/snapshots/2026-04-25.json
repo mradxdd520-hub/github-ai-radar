@@ -1,10 +1,10 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-04-25T12:12:25.009270",
+  "generated_at": "2026-04-25T12:13:55.566343",
   "stats": {
     "total_trending": 30,
-    "ai_projects": 16,
-    "featured": 10
+    "ai_projects": 15,
+    "featured": 8
   },
   "top5": [
     {
@@ -118,7 +118,7 @@
       "name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 133950,
+      "stars": 133951,
       "forks": 19007,
       "language": "Python",
       "track": "llm-infra",
@@ -161,60 +161,11 @@
           "教育机构",
           "创业公司"
         ],
-        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 133,950 Stars，属于头部开源项目。14.2% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 133,951 Stars，属于头部开源项目。14.2% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
       }
     },
     {
       "rank": 4,
-      "id": "clash-verge-rev-clash-verge-rev",
-      "name": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "stars": 113228,
-      "forks": 8285,
-      "language": "TypeScript",
-      "track": "ai-ui",
-      "score": {
-        "vibe_difficulty": 4,
-        "moat": 3,
-        "growth": 4.5,
-        "monetization": 5,
-        "total": 8.2,
-        "featured": true,
-        "tags": [
-          "开发者友好",
-          "10万+Stars",
-          "商业化路径清晰",
-          "AI UI"
-        ],
-        "verdict": "✅ 值得关注"
-      },
-      "details": {
-        "intro": "一个提供 AI 交互界面的项目。优秀的 UI 是 AI 能力落地的关键，让用户能够便捷地使用 AI 服务。 项目已获得超过 113K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
-        "highlights": [
-          "超过 113K Stars，社区验证",
-          "精美的聊天界面",
-          "多模型支持",
-          "对话管理",
-          "用户体验优化"
-        ],
-        "scenarios": [
-          "AI 聊天产品",
-          "智能客服前端",
-          "AI 能力展示",
-          "内部 AI 工具"
-        ],
-        "industries": [
-          "C 端产品",
-          "企业内部工具",
-          "教育",
-          "SaaS"
-        ],
-        "vc_review": "【市场洞察】clash-verge-rev/clash-verge-rev 提供 AI 交互界面解决方案。优秀的 UI 是 AI 能力落地的最后一公里，ChatGPT 的成功证明了 AI UI 的商业价值。 【数据亮点】项目已斩获 113,228 Stars，属于头部开源项目。7.3% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.2/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
-      }
-    },
-    {
-      "rank": 5,
       "id": "huggingface-transformers",
       "name": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers",
@@ -262,6 +213,52 @@
           "AI 创业公司"
         ],
         "vc_review": "【市场洞察】huggingface/transformers 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 159,892 Stars，属于头部开源项目。20.6% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.1/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ebookfoundation-free-programming-books",
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 385999,
+      "forks": 66125,
+      "language": "Python",
+      "track": "other",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 4,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      },
+      "details": {
+        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 385K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "highlights": [
+          "超过 385K Stars，社区验证",
+          "创新技术方案",
+          "特定场景优化",
+          "开源社区支持"
+        ],
+        "scenarios": [
+          "特定场景应用",
+          "技术探索",
+          "概念验证"
+        ],
+        "industries": [
+          "科技公司",
+          "创业团队",
+          "研究机构"
+        ],
+        "vc_review": "【市场洞察】EbookFoundation/free-programming-books 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 385,999 Stars，属于头部开源项目。17.1% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.0/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
       }
     }
   ],
@@ -356,36 +353,7 @@
           "教育机构",
           "创业公司"
         ],
-        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 133,950 Stars，属于头部开源项目。14.2% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
-      }
-    },
-    {
-      "id": "clash-verge-rev-clash-verge-rev",
-      "name": "clash-verge-rev/clash-verge-rev",
-      "score": 8.2,
-      "track": "ai-ui",
-      "details": {
-        "intro": "一个提供 AI 交互界面的项目。优秀的 UI 是 AI 能力落地的关键，让用户能够便捷地使用 AI 服务。 项目已获得超过 113K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
-        "highlights": [
-          "超过 113K Stars，社区验证",
-          "精美的聊天界面",
-          "多模型支持",
-          "对话管理",
-          "用户体验优化"
-        ],
-        "scenarios": [
-          "AI 聊天产品",
-          "智能客服前端",
-          "AI 能力展示",
-          "内部 AI 工具"
-        ],
-        "industries": [
-          "C 端产品",
-          "企业内部工具",
-          "教育",
-          "SaaS"
-        ],
-        "vc_review": "【市场洞察】clash-verge-rev/clash-verge-rev 提供 AI 交互界面解决方案。优秀的 UI 是 AI 能力落地的最后一公里，ChatGPT 的成功证明了 AI UI 的商业价值。 【数据亮点】项目已斩获 113,228 Stars，属于头部开源项目。7.3% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.2/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 133,951 Stars，属于头部开源项目。14.2% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
       }
     },
     {
@@ -506,35 +474,6 @@
       }
     },
     {
-      "id": "firecrawl-firecrawl",
-      "name": "firecrawl/firecrawl",
-      "score": 7.7,
-      "track": "agent",
-      "details": {
-        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 112K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
-        "highlights": [
-          "超过 112K Stars，社区验证",
-          "Agent 核心框架支持",
-          "工具调用和 Function Calling",
-          "多 Agent 协作能力",
-          "记忆和状态管理"
-        ],
-        "scenarios": [
-          "智能助手开发",
-          "AI 自动化流程",
-          "复杂任务编排",
-          "对话系统"
-        ],
-        "industries": [
-          "SaaS",
-          "企业服务",
-          "效率工具",
-          "客服"
-        ],
-        "vc_review": "【市场洞察】firecrawl/firecrawl 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 112,074 Stars，属于头部开源项目。6.4% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.7/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
-      }
-    },
-    {
       "id": "openclaw-openclaw",
       "name": "openclaw/openclaw",
       "score": 7.6,
@@ -557,33 +496,7 @@
           "创业团队",
           "研究机构"
         ],
-        "vc_review": "【市场洞察】openclaw/openclaw 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 363,513 Stars，属于头部开源项目。20.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
-      }
-    },
-    {
-      "id": "iptv-org-iptv",
-      "name": "iptv-org/iptv",
-      "score": 7.4,
-      "track": "other",
-      "details": {
-        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 115K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
-        "highlights": [
-          "超过 115K Stars，社区验证",
-          "创新技术方案",
-          "特定场景优化",
-          "开源社区支持"
-        ],
-        "scenarios": [
-          "特定场景应用",
-          "技术探索",
-          "概念验证"
-        ],
-        "industries": [
-          "科技公司",
-          "创业团队",
-          "研究机构"
-        ],
-        "vc_review": "【市场洞察】iptv-org/iptv 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 115,119 Stars，属于头部开源项目。5.2% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 7.4/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+        "vc_review": "【市场洞察】openclaw/openclaw 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 363,515 Stars，属于头部开源项目。20.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
       }
     },
     {
@@ -645,14 +558,14 @@
       }
     },
     {
-      "id": "nousresearch-hermes-agent",
-      "name": "NousResearch/hermes-agent",
-      "score": 7.3,
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "score": 7.2,
       "track": "agent",
       "details": {
-        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 115K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 166K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Shell 开发。",
         "highlights": [
-          "超过 115K Stars，社区验证",
+          "超过 166K Stars，社区验证",
           "Agent 核心框架支持",
           "工具调用和 Function Calling",
           "多 Agent 协作能力",
@@ -670,7 +583,91 @@
           "效率工具",
           "客服"
         ],
-        "vc_review": "【市场洞察】NousResearch/hermes-agent 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 115,411 Stars，属于头部开源项目。14.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.3/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+        "vc_review": "【市场洞察】obra/superpowers 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 166,900 Stars，属于头部开源项目。8.8% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.2/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "f-prompts.chat",
+      "name": "f/prompts.chat",
+      "score": 7.2,
+      "track": "llm-infra",
+      "details": {
+        "intro": "一个 LLM 基础设施项目，为大语言模型应用提供核心支撑能力。在 AI 应用爆发的今天，LLM Infra 是整个生态的基石。 项目已获得超过 160K Stars，是该领域最受欢迎的开源项目之一。 主要使用 HTML 开发。",
+        "highlights": [
+          "超过 160K Stars，社区验证",
+          "LLM 调用和管理",
+          "模型接口统一",
+          "Prompt 管理",
+          "调用链追踪"
+        ],
+        "scenarios": [
+          "LLM 应用开发",
+          "AI 中台建设",
+          "模型网关",
+          "Prompt 工程"
+        ],
+        "industries": [
+          "AI 公司",
+          "科技企业",
+          "云服务商",
+          "系统集成商"
+        ],
+        "vc_review": "【市场洞察】f/prompts.chat 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 160,567 Stars，属于头部开源项目。13.1% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【投资建议】综合评分 7.2/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "digitalplatdev-freedomain",
+      "name": "DigitalPlatDev/FreeDomain",
+      "score": 6.8,
+      "track": "other",
+      "details": {
+        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 158K Stars，是该领域最受欢迎的开源项目之一。 主要使用 HTML 开发。",
+        "highlights": [
+          "超过 158K Stars，社区验证",
+          "创新技术方案",
+          "特定场景优化",
+          "开源社区支持"
+        ],
+        "scenarios": [
+          "特定场景应用",
+          "技术探索",
+          "概念验证"
+        ],
+        "industries": [
+          "科技公司",
+          "创业团队",
+          "研究机构"
+        ],
+        "vc_review": "【市场洞察】DigitalPlatDev/FreeDomain 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 158,619 Stars，属于头部开源项目。1.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【投资建议】综合评分 6.8/10，可以观望。关注项目后续发展，等待更好的时机。"
+      }
+    },
+    {
+      "id": "tensorflow-tensorflow",
+      "name": "tensorflow/tensorflow",
+      "score": 6.5,
+      "track": "ml-framework",
+      "details": {
+        "intro": "一个机器学习框架或工具项目，为 AI 模型的训练和部署提供基础能力。 项目已获得超过 194K Stars，是该领域最受欢迎的开源项目之一。 主要使用 C++ 开发。",
+        "highlights": [
+          "超过 194K Stars，社区验证",
+          "模型训练支持",
+          "推理优化",
+          "多框架兼容",
+          "生态完善"
+        ],
+        "scenarios": [
+          "模型开发",
+          "AI 研究",
+          "生产部署",
+          "模型优化"
+        ],
+        "industries": [
+          "AI 研究",
+          "科技公司",
+          "学术机构",
+          "云服务商"
+        ],
+        "vc_review": "【市场洞察】tensorflow/tensorflow 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 194,862 Stars，属于头部开源项目。38.6% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（1/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.5/10，可以观望。关注项目后续发展，等待更好的时机。"
       }
     },
     {
@@ -703,33 +700,6 @@
         ],
         "vc_review": "【市场洞察】ollama/ollama 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 169,921 Stars，属于头部开源项目。9.3% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（2/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.2/10，可以观望。关注项目后续发展，等待更好的时机。"
       }
-    },
-    {
-      "id": "kubernetes-kubernetes",
-      "name": "kubernetes/kubernetes",
-      "score": 6.2,
-      "track": "other",
-      "details": {
-        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 121K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Go 开发。",
-        "highlights": [
-          "超过 121K Stars，社区验证",
-          "创新技术方案",
-          "特定场景优化",
-          "开源社区支持",
-          "容器化部署，运维友好"
-        ],
-        "scenarios": [
-          "特定场景应用",
-          "技术探索",
-          "概念验证"
-        ],
-        "industries": [
-          "科技公司",
-          "创业团队",
-          "研究机构"
-        ],
-        "vc_review": "【市场洞察】kubernetes/kubernetes 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 121,906 Stars，属于头部开源项目。35.2% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（1/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.2/10，可以观望。关注项目后续发展，等待更好的时机。"
-      }
     }
   ],
   "all_trending": [
@@ -752,7 +722,7 @@
     {
       "rank": 3,
       "name": "openclaw/openclaw",
-      "stars": 363513,
+      "stars": 363515,
       "today_stars": 0,
       "language": "TypeScript",
       "is_ai": true
@@ -783,6 +753,22 @@
     },
     {
       "rank": 7,
+      "name": "torvalds/linux",
+      "stars": 230729,
+      "today_stars": 0,
+      "language": "C",
+      "is_ai": false
+    },
+    {
+      "rank": 8,
+      "name": "tensorflow/tensorflow",
+      "stars": 194862,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": true
+    },
+    {
+      "rank": 9,
       "name": "ultraworkers/claw-code",
       "stars": 188171,
       "today_stars": 0,
@@ -790,7 +776,7 @@
       "is_ai": false
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "n8n-io/n8n",
       "stars": 185486,
       "today_stars": 0,
@@ -798,7 +784,7 @@
       "is_ai": true
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "microsoft/vscode",
       "stars": 184230,
       "today_stars": 0,
@@ -806,7 +792,7 @@
       "is_ai": false
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "Significant-Gravitas/AutoGPT",
       "stars": 183738,
       "today_stars": 0,
@@ -814,7 +800,31 @@
       "is_ai": true
     },
     {
-      "rank": 11,
+      "rank": 13,
+      "name": "flutter/flutter",
+      "stars": 176100,
+      "today_stars": 0,
+      "language": "Dart",
+      "is_ai": false
+    },
+    {
+      "rank": 14,
+      "name": "twbs/bootstrap",
+      "stars": 174206,
+      "today_stars": 0,
+      "language": "MDX",
+      "is_ai": false
+    },
+    {
+      "rank": 15,
+      "name": "github/gitignore",
+      "stars": 173548,
+      "today_stars": 0,
+      "language": null,
+      "is_ai": false
+    },
+    {
+      "rank": 16,
       "name": "ollama/ollama",
       "stars": 169921,
       "today_stars": 0,
@@ -822,7 +832,23 @@
       "is_ai": true
     },
     {
-      "rank": 12,
+      "rank": 17,
+      "name": "obra/superpowers",
+      "stars": 166900,
+      "today_stars": 0,
+      "language": "Shell",
+      "is_ai": true
+    },
+    {
+      "rank": 18,
+      "name": "f/prompts.chat",
+      "stars": 160567,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": true
+    },
+    {
+      "rank": 19,
       "name": "huggingface/transformers",
       "stars": 159892,
       "today_stars": 0,
@@ -830,7 +856,15 @@
       "is_ai": true
     },
     {
-      "rank": 13,
+      "rank": 20,
+      "name": "DigitalPlatDev/FreeDomain",
+      "stars": 158619,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": true
+    },
+    {
+      "rank": 21,
       "name": "anomalyco/opencode",
       "stars": 149073,
       "today_stars": 0,
@@ -838,7 +872,7 @@
       "is_ai": true
     },
     {
-      "rank": 14,
+      "rank": 22,
       "name": "langflow-ai/langflow",
       "stars": 147337,
       "today_stars": 0,
@@ -846,7 +880,7 @@
       "is_ai": true
     },
     {
-      "rank": 15,
+      "rank": 23,
       "name": "vercel/next.js",
       "stars": 139143,
       "today_stars": 0,
@@ -854,7 +888,7 @@
       "is_ai": false
     },
     {
-      "rank": 16,
+      "rank": 24,
       "name": "langgenius/dify",
       "stars": 139075,
       "today_stars": 0,
@@ -862,7 +896,15 @@
       "is_ai": true
     },
     {
-      "rank": 17,
+      "rank": 25,
+      "name": "Genymobile/scrcpy",
+      "stars": 138970,
+      "today_stars": 0,
+      "language": "C",
+      "is_ai": false
+    },
+    {
+      "rank": 26,
       "name": "langchain-ai/langchain",
       "stars": 134810,
       "today_stars": 0,
@@ -870,15 +912,15 @@
       "is_ai": true
     },
     {
-      "rank": 18,
+      "rank": 27,
       "name": "open-webui/open-webui",
-      "stars": 133950,
+      "stars": 133951,
       "today_stars": 0,
       "language": "Python",
       "is_ai": true
     },
     {
-      "rank": 19,
+      "rank": 28,
       "name": "golang/go",
       "stars": 133632,
       "today_stars": 0,
@@ -886,92 +928,20 @@
       "is_ai": false
     },
     {
-      "rank": 20,
-      "name": "kubernetes/kubernetes",
-      "stars": 121906,
-      "today_stars": 0,
-      "language": "Go",
-      "is_ai": true
-    },
-    {
-      "rank": 21,
-      "name": "excalidraw/excalidraw",
-      "stars": 121890,
-      "today_stars": 0,
-      "language": "TypeScript",
-      "is_ai": false
-    },
-    {
-      "rank": 22,
-      "name": "nodejs/node",
-      "stars": 116889,
-      "today_stars": 0,
-      "language": "JavaScript",
-      "is_ai": false
-    },
-    {
-      "rank": 23,
-      "name": "NousResearch/hermes-agent",
-      "stars": 115411,
-      "today_stars": 0,
-      "language": "Python",
-      "is_ai": true
-    },
-    {
-      "rank": 24,
-      "name": "iptv-org/iptv",
-      "stars": 115119,
-      "today_stars": 0,
-      "language": "TypeScript",
-      "is_ai": true
-    },
-    {
-      "rank": 25,
-      "name": "clash-verge-rev/clash-verge-rev",
-      "stars": 113228,
-      "today_stars": 0,
-      "language": "TypeScript",
-      "is_ai": true
-    },
-    {
-      "rank": 26,
-      "name": "shadcn-ui/ui",
-      "stars": 112953,
-      "today_stars": 0,
-      "language": "TypeScript",
-      "is_ai": false
-    },
-    {
-      "rank": 27,
-      "name": "rustdesk/rustdesk",
-      "stars": 112854,
-      "today_stars": 0,
-      "language": "Rust",
-      "is_ai": false
-    },
-    {
-      "rank": 28,
-      "name": "rust-lang/rust",
-      "stars": 112307,
-      "today_stars": 0,
-      "language": "Rust",
-      "is_ai": false
-    },
-    {
       "rank": 29,
-      "name": "mrdoob/three.js",
-      "stars": 112166,
+      "name": "microsoft/PowerToys",
+      "stars": 132009,
       "today_stars": 0,
-      "language": "JavaScript",
+      "language": "C#",
       "is_ai": false
     },
     {
       "rank": 30,
-      "name": "firecrawl/firecrawl",
-      "stars": 112074,
+      "name": "facebook/react-native",
+      "stars": 125721,
       "today_stars": 0,
-      "language": "TypeScript",
-      "is_ai": true
+      "language": "C++",
+      "is_ai": false
     }
   ]
 }

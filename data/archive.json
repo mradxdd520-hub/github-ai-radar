@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-04-25T12:12:25.011178",
+  "updated_at": "2026-04-25T12:13:55.567411",
   "stats": {
     "total_projects": 39,
     "total_days": 10,
@@ -12,7 +12,7 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 363513,
+      "stars": 363515,
       "forks": 74367,
       "language": "TypeScript",
       "topics": [
@@ -43,15 +43,15 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 2,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
       "name": "tensorflow/tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 194852,
-      "forks": 75278,
+      "stars": 194862,
+      "forks": 75279,
       "language": "C++",
       "topics": [
         "deep-learning",
@@ -83,7 +83,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 6,
-      "days_on_trending": 13
+      "days_on_trending": 14
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -182,7 +182,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 7,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
@@ -226,7 +226,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 10,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -270,7 +270,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 8,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -317,8 +317,8 @@
       "name": "f/prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 160491,
-      "forks": 20999,
+      "stars": 160567,
+      "forks": 21006,
       "language": "HTML",
       "topics": [
         "ai",
@@ -358,7 +358,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 15,
-      "days_on_trending": 13
+      "days_on_trending": 14
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -409,7 +409,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 12,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -446,7 +446,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 14,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
@@ -476,7 +476,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 13,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
@@ -529,7 +529,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 8,
-      "days_on_trending": 15
+      "days_on_trending": 16
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
@@ -582,14 +582,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 6,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
       "name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 133950,
+      "stars": 133951,
       "forks": 19007,
       "language": "Python",
       "topics": [
@@ -630,7 +630,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-25",
       "peak_rank": 10,
-      "days_on_trending": 17
+      "days_on_trending": 18
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
@@ -1089,8 +1089,8 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 165733,
-      "forks": 14538,
+      "stars": 166900,
+      "forks": 14673,
       "language": "Shell",
       "topics": [],
       "today_stars": 0,
@@ -1112,7 +1112,7 @@
       "first_seen": "2026-04-02",
       "last_seen": "2026-04-25",
       "peak_rank": 15,
-      "days_on_trending": 5
+      "days_on_trending": 6
     },
     "crewaiinc-crewai": {
       "id": "crewaiinc-crewai",
@@ -1339,7 +1339,7 @@
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-25",
       "peak_rank": 2,
-      "days_on_trending": 5
+      "days_on_trending": 6
     },
     "snailclimb-javaguide": {
       "id": "snailclimb-javaguide",
@@ -1390,8 +1390,8 @@
       "name": "DigitalPlatDev/FreeDomain",
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
       "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "stars": 158483,
-      "forks": 2702,
+      "stars": 158619,
+      "forks": 2706,
       "language": "HTML",
       "topics": [
         "digitalplat",
@@ -1439,7 +1439,7 @@
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-25",
       "peak_rank": 19,
-      "days_on_trending": 2
+      "days_on_trending": 3
     },
     "anthropics-skills": {
       "id": "anthropics-skills",
