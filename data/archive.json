@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-05-03T09:58:47.177485",
+  "updated_at": "2026-05-03T10:00:29.598855",
   "stats": {
     "total_projects": 40,
     "total_days": 15,
@@ -13,7 +13,7 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "stars": 367586,
-      "forks": 75606,
+      "forks": 75607,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -43,7 +43,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 2,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
@@ -83,7 +83,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 4,
-      "days_on_trending": 22
+      "days_on_trending": 23
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -182,7 +182,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 6,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
@@ -226,7 +226,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 8,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -270,7 +270,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 8,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -358,7 +358,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 12,
-      "days_on_trending": 22
+      "days_on_trending": 23
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -409,7 +409,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 12,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -446,14 +446,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 14,
-      "days_on_trending": 23
+      "days_on_trending": 24
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 153608,
+      "stars": 153609,
       "forks": 17763,
       "language": "TypeScript",
       "topics": [],
@@ -476,7 +476,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 13,
-      "days_on_trending": 23
+      "days_on_trending": 24
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
@@ -529,7 +529,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 8,
-      "days_on_trending": 24
+      "days_on_trending": 25
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
@@ -582,7 +582,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-03",
       "peak_rank": 6,
-      "days_on_trending": 25
+      "days_on_trending": 26
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
@@ -1302,7 +1302,7 @@
       "first_seen": "2026-04-15",
       "last_seen": "2026-05-03",
       "peak_rank": 20,
-      "days_on_trending": 12
+      "days_on_trending": 13
     },
     "ebookfoundation-free-programming-books": {
       "id": "ebookfoundation-free-programming-books",
@@ -1502,7 +1502,7 @@
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 129834,
+      "stars": 129839,
       "forks": 19616,
       "language": "Python",
       "topics": [
@@ -1566,7 +1566,7 @@
       "first_seen": "2026-04-25",
       "last_seen": "2026-05-03",
       "peak_rank": 23,
-      "days_on_trending": 7
+      "days_on_trending": 8
     },
     "iptv-org-iptv": {
       "id": "iptv-org-iptv",
@@ -1621,7 +1621,7 @@
       "first_seen": "2026-04-25",
       "last_seen": "2026-05-03",
       "peak_rank": 24,
-      "days_on_trending": 3
+      "days_on_trending": 4
     },
     "clash-verge-rev-clash-verge-rev": {
       "id": "clash-verge-rev-clash-verge-rev",
