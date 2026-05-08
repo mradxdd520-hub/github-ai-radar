@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-05-08T09:58:38.364150",
+  "updated_at": "2026-05-08T10:01:12.530353",
   "stats": {
     "total_projects": 40,
     "total_days": 19,
@@ -12,7 +12,7 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 369483,
+      "stars": 369484,
       "forks": 76245,
       "language": "TypeScript",
       "topics": [
@@ -43,7 +43,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 2,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
@@ -83,7 +83,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 4,
-      "days_on_trending": 29
+      "days_on_trending": 30
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -136,7 +136,7 @@
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 187011,
+      "stars": 187012,
       "forks": 57446,
       "language": "TypeScript",
       "topics": [
@@ -182,7 +182,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 6,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
@@ -226,7 +226,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 8,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -270,7 +270,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 8,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -358,7 +358,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 12,
-      "days_on_trending": 29
+      "days_on_trending": 30
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -409,7 +409,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 12,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -446,14 +446,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 14,
-      "days_on_trending": 30
+      "days_on_trending": 31
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 156540,
+      "stars": 156541,
       "forks": 18196,
       "language": "TypeScript",
       "topics": [],
@@ -476,7 +476,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 13,
-      "days_on_trending": 30
+      "days_on_trending": 31
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
@@ -529,7 +529,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 8,
-      "days_on_trending": 31
+      "days_on_trending": 32
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
@@ -582,7 +582,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-08",
       "peak_rank": 6,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
@@ -1339,7 +1339,7 @@
       "first_seen": "2026-04-16",
       "last_seen": "2026-05-08",
       "peak_rank": 2,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "snailclimb-javaguide": {
       "id": "snailclimb-javaguide",
@@ -1383,7 +1383,7 @@
       "first_seen": "2026-04-16",
       "last_seen": "2026-05-08",
       "peak_rank": 14,
-      "days_on_trending": 11
+      "days_on_trending": 12
     },
     "digitalplatdev-freedomain": {
       "id": "digitalplatdev-freedomain",
@@ -1502,7 +1502,7 @@
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 137633,
+      "stars": 137634,
       "forks": 21203,
       "language": "Python",
       "topics": [
@@ -1566,7 +1566,7 @@
       "first_seen": "2026-04-25",
       "last_seen": "2026-05-08",
       "peak_rank": 23,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "iptv-org-iptv": {
       "id": "iptv-org-iptv",
@@ -1833,7 +1833,7 @@
       "first_seen": "2026-04-30",
       "last_seen": "2026-05-08",
       "peak_rank": 21,
-      "days_on_trending": 2
+      "days_on_trending": 3
     }
   }
 }
