@@ -54,7 +54,7 @@
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "stars": 369901,
+    "stars": 369902,
     "forks": 76360,
     "language": "TypeScript",
     "topics": [
@@ -102,7 +102,7 @@
     "url": "https://github.com/facebook/react",
     "description": "The library for web and native user interfaces.",
     "stars": 244880,
-    "forks": 51007,
+    "forks": 51008,
     "language": "JavaScript",
     "topics": [
       "declarative",
@@ -216,8 +216,8 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 183313,
-    "forks": 16282,
+    "stars": 183316,
+    "forks": 16283,
     "language": "Shell",
     "topics": []
   },
@@ -300,7 +300,7 @@
     "name": "f/prompts.chat",
     "url": "https://github.com/f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 161848,
+    "stars": 161849,
     "forks": 21096,
     "language": "HTML",
     "topics": [
@@ -359,7 +359,7 @@
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 157104,
+    "stars": 157105,
     "forks": 18296,
     "language": "TypeScript",
     "topics": []
@@ -485,7 +485,7 @@
     "name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 139311,
+    "stars": 139316,
     "forks": 21520,
     "language": "Python",
     "topics": [
@@ -538,7 +538,7 @@
     "name": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform. Available in TypeScript!",
-    "stars": 136168,
+    "stars": 136169,
     "forks": 22506,
     "language": "Python",
     "topics": [
@@ -607,7 +607,7 @@
     "name": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 130533,
+    "stars": 130536,
     "forks": 15356,
     "language": "Python",
     "topics": [

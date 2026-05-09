@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-05-09T09:58:42.967545",
+  "updated_at": "2026-05-09T10:00:35.416979",
   "stats": {
     "total_projects": 40,
     "total_days": 20,
@@ -12,7 +12,7 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 369901,
+      "stars": 369902,
       "forks": 76360,
       "language": "TypeScript",
       "topics": [
@@ -43,7 +43,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 2,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
@@ -83,7 +83,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 4,
-      "days_on_trending": 31
+      "days_on_trending": 32
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -182,7 +182,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 6,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
@@ -226,7 +226,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 8,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
@@ -270,7 +270,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 8,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -317,7 +317,7 @@
       "name": "f/prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 161848,
+      "stars": 161849,
       "forks": 21096,
       "language": "HTML",
       "topics": [
@@ -358,7 +358,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 12,
-      "days_on_trending": 31
+      "days_on_trending": 32
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
@@ -409,7 +409,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 12,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
@@ -446,14 +446,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 14,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 157104,
+      "stars": 157105,
       "forks": 18296,
       "language": "TypeScript",
       "topics": [],
@@ -476,7 +476,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 13,
-      "days_on_trending": 32
+      "days_on_trending": 33
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
@@ -529,14 +529,14 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 8,
-      "days_on_trending": 33
+      "days_on_trending": 34
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "description": "The agent engineering platform",
-      "stars": 136168,
+      "stars": 136169,
       "forks": 22506,
       "language": "Python",
       "topics": [
@@ -582,7 +582,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 6,
-      "days_on_trending": 34
+      "days_on_trending": 35
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
@@ -630,7 +630,7 @@
       "first_seen": "2026-04-20",
       "last_seen": "2026-05-09",
       "peak_rank": 10,
-      "days_on_trending": 24
+      "days_on_trending": 25
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
@@ -1089,8 +1089,8 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 183313,
-      "forks": 16282,
+      "stars": 183316,
+      "forks": 16283,
       "language": "Shell",
       "topics": [],
       "today_stars": 0,
@@ -1112,7 +1112,7 @@
       "first_seen": "2026-04-02",
       "last_seen": "2026-05-09",
       "peak_rank": 11,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "crewaiinc-crewai": {
       "id": "crewaiinc-crewai",
@@ -1383,7 +1383,7 @@
       "first_seen": "2026-04-16",
       "last_seen": "2026-05-09",
       "peak_rank": 14,
-      "days_on_trending": 13
+      "days_on_trending": 14
     },
     "digitalplatdev-freedomain": {
       "id": "digitalplatdev-freedomain",
@@ -1446,7 +1446,7 @@
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
-      "stars": 130533,
+      "stars": 130536,
       "forks": 15356,
       "language": "Python",
       "topics": [
@@ -1495,14 +1495,14 @@
       "first_seen": "2026-04-24",
       "last_seen": "2026-05-09",
       "peak_rank": 28,
-      "days_on_trending": 6
+      "days_on_trending": 7
     },
     "nousresearch-hermes-agent": {
       "id": "nousresearch-hermes-agent",
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 139311,
+      "stars": 139316,
       "forks": 21520,
       "language": "Python",
       "topics": [
@@ -1566,7 +1566,7 @@
       "first_seen": "2026-04-25",
       "last_seen": "2026-05-09",
       "peak_rank": 23,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "iptv-org-iptv": {
       "id": "iptv-org-iptv",
