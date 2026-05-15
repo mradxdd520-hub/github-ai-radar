@@ -1,0 +1,1013 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T10:01:28.944344",
+  "stats": {
+    "total_trending": 30,
+    "ai_projects": 17,
+    "featured": 9
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "stars": 136750,
+      "forks": 22616,
+      "language": "Python",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 3.5,
+        "growth": 5,
+        "monetization": 4.5,
+        "total": 8.5,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "Agent"
+        ],
+        "verdict": "🏆 强烈推荐"
+      },
+      "details": {
+        "intro": "LangChain 是当前最流行的 LLM 应用开发框架，由 Harrison Chase 于 2022 年创立。它提供了一套完整的工具链，帮助开发者快速构建基于大语言模型的应用，包括 RAG 系统、AI Agent、对话机器人等。项目采用模块化设计，支持 OpenAI、Anthropic、本地模型等多种 LLM 后端。",
+        "highlights": [
+          "模块化链式调用架构，灵活组合各类组件",
+          "完善的 RAG 实现（文档加载、分割、向量存储、检索）",
+          "LangGraph 支持复杂的多 Agent 协作场景",
+          "丰富的集成生态，400+ 工具和数据源连接器",
+          "活跃社区支持，每周发布新版本"
+        ],
+        "scenarios": [
+          "企业知识库问答系统",
+          "AI 客服/智能助手",
+          "文档分析与摘要工具",
+          "代码生成与解释工具",
+          "多轮对话应用"
+        ],
+        "industries": [
+          "金融科技",
+          "SaaS 企业",
+          "教育培训",
+          "法律服务",
+          "医疗健康"
+        ],
+        "vc_review": "【市场洞察】langchain-ai/langchain 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 136,750 Stars，属于头部开源项目。16.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 8.5/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 187881,
+      "forks": 57630,
+      "language": "TypeScript",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4.5,
+        "moat": 3,
+        "growth": 5,
+        "monetization": 4,
+        "total": 8.3,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "可自托管",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      },
+      "details": {
+        "intro": "n8n 是一个开源的工作流自动化平台，被称为\"开源版 Zapier\"。近年来深度集成 AI 能力，支持调用各类 LLM API、构建 AI Agent 工作流。项目采用可视化编排，即使非技术人员也能快速搭建复杂自动化流程。",
+        "highlights": [
+          "可视化工作流编排，拖拽式操作",
+          "400+ 预置集成（CRM、数据库、SaaS 工具）",
+          "原生 AI 节点支持 OpenAI/Anthropic/本地模型",
+          "自托管部署，数据完全可控",
+          "活跃社区，丰富的模板库"
+        ],
+        "scenarios": [
+          "营销自动化（邮件、社媒、CRM）",
+          "AI 驱动的数据处理管道",
+          "客户服务自动化",
+          "内部流程自动化",
+          "API 集成中间件"
+        ],
+        "industries": [
+          "电商",
+          "营销机构",
+          "运营团队",
+          "SaaS 公司",
+          "中小企业"
+        ],
+        "vc_review": "【市场洞察】n8n-io/n8n 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 187,881 Stars，属于头部开源项目。30.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4.5/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars": 137106,
+      "forks": 19544,
+      "language": "Python",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 5,
+        "moat": 3,
+        "growth": 4.5,
+        "monetization": 4,
+        "total": 8.3,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "自带UI",
+          "可自托管",
+          "10万+Stars",
+          "商业化路径清晰"
+        ],
+        "verdict": "✅ 值得关注"
+      },
+      "details": {
+        "intro": "Open WebUI（原 Ollama WebUI）是一个功能丰富的自托管 AI 聊天界面，支持 Ollama 和 OpenAI 兼容 API。项目提供了媲美 ChatGPT 的用户体验，同时保持数据完全私有。内置 RAG 引擎、多模态支持、用户管理等企业级功能。",
+        "highlights": [
+          "开箱即用的精美 UI，用户体验媲美 ChatGPT",
+          "内置 RAG 引擎，支持文档上传和知识库问答",
+          "支持多模态（图片、语音）",
+          "完善的用户/权限管理系统",
+          "Docker 一键部署，5 分钟上线"
+        ],
+        "scenarios": [
+          "私有化 ChatGPT 替代方案",
+          "团队内部 AI 助手",
+          "企业知识库问答入口",
+          "本地模型体验平台",
+          "AI 能力快速封装"
+        ],
+        "industries": [
+          "中小企业 IT 部门",
+          "咨询公司",
+          "研究机构",
+          "教育机构",
+          "创业公司"
+        ],
+        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 137,106 Stars，属于头部开源项目。14.3% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stars": 160623,
+      "forks": 33211,
+      "language": "Python",
+      "track": "llm-infra",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 4,
+        "growth": 5,
+        "monetization": 3,
+        "total": 8.1,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "基础设施",
+          "10万+Stars",
+          "高参与度"
+        ],
+        "verdict": "✅ 值得关注"
+      },
+      "details": {
+        "intro": "Hugging Face Transformers 是机器学习领域最重要的开源库之一，提供了数千个预训练模型的统一接口。从 BERT、GPT 到 Llama、Mistral，几乎所有主流模型都可以通过几行代码加载使用。",
+        "highlights": [
+          "统一的模型加载和推理接口",
+          "支持 PyTorch/TensorFlow/JAX 多框架",
+          "10万+ 预训练模型可用",
+          "完善的微调和训练工具链",
+          "Pipeline API 极简调用"
+        ],
+        "scenarios": [
+          "NLP 任务（分类、NER、问答）",
+          "文本生成和摘要",
+          "模型微调和训练",
+          "模型研究和实验",
+          "生产环境模型部署"
+        ],
+        "industries": [
+          "AI 研究机构",
+          "科技公司",
+          "数据科学团队",
+          "学术机构",
+          "AI 创业公司"
+        ],
+        "vc_review": "【市场洞察】huggingface/transformers 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 160,623 Stars，属于头部开源项目。20.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.1/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 184306,
+      "forks": 46235,
+      "language": "Python",
+      "track": "agent",
+      "score": {
+        "vibe_difficulty": 4,
+        "moat": 2.5,
+        "growth": 5,
+        "monetization": 4.5,
+        "total": 8.0,
+        "featured": true,
+        "tags": [
+          "开发者友好",
+          "10万+Stars",
+          "高参与度",
+          "商业化路径清晰",
+          "Agent"
+        ],
+        "verdict": "✅ 值得关注"
+      },
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 184K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "highlights": [
+          "超过 184K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】Significant-Gravitas/AutoGPT 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 184,306 Stars，属于头部开源项目。25.1% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 8.0/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    }
+  ],
+  "all_ai_projects": [
+    {
+      "id": "langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "score": 8.5,
+      "track": "agent",
+      "details": {
+        "intro": "LangChain 是当前最流行的 LLM 应用开发框架，由 Harrison Chase 于 2022 年创立。它提供了一套完整的工具链，帮助开发者快速构建基于大语言模型的应用，包括 RAG 系统、AI Agent、对话机器人等。项目采用模块化设计，支持 OpenAI、Anthropic、本地模型等多种 LLM 后端。",
+        "highlights": [
+          "模块化链式调用架构，灵活组合各类组件",
+          "完善的 RAG 实现（文档加载、分割、向量存储、检索）",
+          "LangGraph 支持复杂的多 Agent 协作场景",
+          "丰富的集成生态，400+ 工具和数据源连接器",
+          "活跃社区支持，每周发布新版本"
+        ],
+        "scenarios": [
+          "企业知识库问答系统",
+          "AI 客服/智能助手",
+          "文档分析与摘要工具",
+          "代码生成与解释工具",
+          "多轮对话应用"
+        ],
+        "industries": [
+          "金融科技",
+          "SaaS 企业",
+          "教育培训",
+          "法律服务",
+          "医疗健康"
+        ],
+        "vc_review": "【市场洞察】langchain-ai/langchain 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 136,750 Stars，属于头部开源项目。16.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 8.5/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "n8n-io-n8n",
+      "name": "n8n-io/n8n",
+      "score": 8.3,
+      "track": "llm-infra",
+      "details": {
+        "intro": "n8n 是一个开源的工作流自动化平台，被称为\"开源版 Zapier\"。近年来深度集成 AI 能力，支持调用各类 LLM API、构建 AI Agent 工作流。项目采用可视化编排，即使非技术人员也能快速搭建复杂自动化流程。",
+        "highlights": [
+          "可视化工作流编排，拖拽式操作",
+          "400+ 预置集成（CRM、数据库、SaaS 工具）",
+          "原生 AI 节点支持 OpenAI/Anthropic/本地模型",
+          "自托管部署，数据完全可控",
+          "活跃社区，丰富的模板库"
+        ],
+        "scenarios": [
+          "营销自动化（邮件、社媒、CRM）",
+          "AI 驱动的数据处理管道",
+          "客户服务自动化",
+          "内部流程自动化",
+          "API 集成中间件"
+        ],
+        "industries": [
+          "电商",
+          "营销机构",
+          "运营团队",
+          "SaaS 公司",
+          "中小企业"
+        ],
+        "vc_review": "【市场洞察】n8n-io/n8n 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 187,881 Stars，属于头部开源项目。30.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4.5/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "score": 8.3,
+      "track": "llm-infra",
+      "details": {
+        "intro": "Open WebUI（原 Ollama WebUI）是一个功能丰富的自托管 AI 聊天界面，支持 Ollama 和 OpenAI 兼容 API。项目提供了媲美 ChatGPT 的用户体验，同时保持数据完全私有。内置 RAG 引擎、多模态支持、用户管理等企业级功能。",
+        "highlights": [
+          "开箱即用的精美 UI，用户体验媲美 ChatGPT",
+          "内置 RAG 引擎，支持文档上传和知识库问答",
+          "支持多模态（图片、语音）",
+          "完善的用户/权限管理系统",
+          "Docker 一键部署，5 分钟上线"
+        ],
+        "scenarios": [
+          "私有化 ChatGPT 替代方案",
+          "团队内部 AI 助手",
+          "企业知识库问答入口",
+          "本地模型体验平台",
+          "AI 能力快速封装"
+        ],
+        "industries": [
+          "中小企业 IT 部门",
+          "咨询公司",
+          "研究机构",
+          "教育机构",
+          "创业公司"
+        ],
+        "vc_review": "【市场洞察】open-webui/open-webui 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 137,106 Stars，属于头部开源项目。14.3% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（5/5），非常适合独立开发者快速包装成产品。自带 UI 组件，建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.3/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "huggingface-transformers",
+      "name": "huggingface/transformers",
+      "score": 8.1,
+      "track": "llm-infra",
+      "details": {
+        "intro": "Hugging Face Transformers 是机器学习领域最重要的开源库之一，提供了数千个预训练模型的统一接口。从 BERT、GPT 到 Llama、Mistral，几乎所有主流模型都可以通过几行代码加载使用。",
+        "highlights": [
+          "统一的模型加载和推理接口",
+          "支持 PyTorch/TensorFlow/JAX 多框架",
+          "10万+ 预训练模型可用",
+          "完善的微调和训练工具链",
+          "Pipeline API 极简调用"
+        ],
+        "scenarios": [
+          "NLP 任务（分类、NER、问答）",
+          "文本生成和摘要",
+          "模型微调和训练",
+          "模型研究和实验",
+          "生产环境模型部署"
+        ],
+        "industries": [
+          "AI 研究机构",
+          "科技公司",
+          "数据科学团队",
+          "学术机构",
+          "AI 创业公司"
+        ],
+        "vc_review": "【市场洞察】huggingface/transformers 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 160,623 Stars，属于头部开源项目。20.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 8.1/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "score": 8.0,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 184K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "highlights": [
+          "超过 184K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】Significant-Gravitas/AutoGPT 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 184,306 Stars，属于头部开源项目。25.1% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 8.0/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "langgenius-dify",
+      "name": "langgenius/dify",
+      "score": 8.0,
+      "track": "agent",
+      "details": {
+        "intro": "Dify 是一个开源的 LLMOps 平台，定位为\"AI 应用开发的操作系统\"。它提供从 Prompt 编排、RAG 流水线到 Agent 开发的全链路工具，让企业能够快速将 AI 能力落地为产品。",
+        "highlights": [
+          "可视化 Prompt 编排和调试",
+          "完整的 RAG 流水线（支持多种向量库）",
+          "AI Agent 和工具调用支持",
+          "内置用量统计和成本控制",
+          "企业级权限和审计"
+        ],
+        "scenarios": [
+          "企业 AI 中台建设",
+          "快速原型验证",
+          "AI 应用工厂",
+          "Prompt 资产管理",
+          "多租户 AI 服务"
+        ],
+        "industries": [
+          "大型企业 IT",
+          "系统集成商",
+          "AI 解决方案商",
+          "金融机构",
+          "政企客户"
+        ],
+        "vc_review": "【市场洞察】langgenius/dify 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 141,398 Stars，属于头部开源项目。15.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 8.0/10，强烈推荐关注。无论是学习、使用还是基于此创业，都是优质标的。"
+      }
+    },
+    {
+      "id": "openclaw-openclaw",
+      "name": "openclaw/openclaw",
+      "score": 7.6,
+      "track": "other",
+      "details": {
+        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 371K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
+        "highlights": [
+          "超过 371K Stars，社区验证",
+          "创新技术方案",
+          "特定场景优化",
+          "开源社区支持"
+        ],
+        "scenarios": [
+          "特定场景应用",
+          "技术探索",
+          "概念验证"
+        ],
+        "industries": [
+          "科技公司",
+          "创业团队",
+          "研究机构"
+        ],
+        "vc_review": "【市场洞察】openclaw/openclaw 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 371,906 Stars，属于头部开源项目。20.7% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "affaan-m-everything-claude-code",
+      "name": "affaan-m/everything-claude-code",
+      "score": 7.6,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 182K Stars，是该领域最受欢迎的开源项目之一。 主要使用 JavaScript 开发。",
+        "highlights": [
+          "超过 182K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】affaan-m/everything-claude-code 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 182,289 Stars，属于头部开源项目。15.4% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "nousresearch-hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "score": 7.6,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 150K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "highlights": [
+          "超过 150K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】NousResearch/hermes-agent 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 150,448 Stars，属于头部开源项目。15.8% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "anthropics-claude-code",
+      "name": "anthropics/claude-code",
+      "score": 7.5,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 123K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Shell 开发。",
+        "highlights": [
+          "超过 123K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】anthropics/claude-code 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 123,599 Stars，属于头部开源项目。16.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.5/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "anomalyco-opencode",
+      "name": "anomalyco/opencode",
+      "score": 7.3,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 160K Stars，是该领域最受欢迎的开源项目之一。 主要使用 TypeScript 开发。",
+        "highlights": [
+          "超过 160K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】anomalyco/opencode 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 160,346 Stars，属于头部开源项目。11.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.3/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "langflow-ai-langflow",
+      "name": "langflow-ai/langflow",
+      "score": 7.3,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 148K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Python 开发。",
+        "highlights": [
+          "超过 148K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】langflow-ai/langflow 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 148,095 Stars，属于头部开源项目。6.1% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.3/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "score": 7.2,
+      "track": "agent",
+      "details": {
+        "intro": "一个专注于 AI Agent 开发的项目，提供构建自主智能体的核心能力。Agent 是 2024-2025 年最火热的 AI 方向，能够自主规划、执行任务并使用工具。 项目已获得超过 191K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Shell 开发。",
+        "highlights": [
+          "超过 191K Stars，社区验证",
+          "Agent 核心框架支持",
+          "工具调用和 Function Calling",
+          "多 Agent 协作能力",
+          "记忆和状态管理"
+        ],
+        "scenarios": [
+          "智能助手开发",
+          "AI 自动化流程",
+          "复杂任务编排",
+          "对话系统"
+        ],
+        "industries": [
+          "SaaS",
+          "企业服务",
+          "效率工具",
+          "客服"
+        ],
+        "vc_review": "【市场洞察】obra/superpowers 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 191,289 Stars，属于头部开源项目。8.9% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.2/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "f-prompts.chat",
+      "name": "f/prompts.chat",
+      "score": 7.2,
+      "track": "llm-infra",
+      "details": {
+        "intro": "一个 LLM 基础设施项目，为大语言模型应用提供核心支撑能力。在 AI 应用爆发的今天，LLM Infra 是整个生态的基石。 项目已获得超过 162K Stars，是该领域最受欢迎的开源项目之一。 主要使用 HTML 开发。",
+        "highlights": [
+          "超过 162K Stars，社区验证",
+          "LLM 调用和管理",
+          "模型接口统一",
+          "Prompt 管理",
+          "调用链追踪"
+        ],
+        "scenarios": [
+          "LLM 应用开发",
+          "AI 中台建设",
+          "模型网关",
+          "Prompt 工程"
+        ],
+        "industries": [
+          "AI 公司",
+          "科技企业",
+          "云服务商",
+          "系统集成商"
+        ],
+        "vc_review": "【市场洞察】f/prompts.chat 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 162,239 Stars，属于头部开源项目。13.0% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术门槛中等（3/5），需要一定的技术功底。适合有经验的开发者，建议选择熟悉的领域切入。 【投资建议】综合评分 7.2/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
+      }
+    },
+    {
+      "id": "tensorflow-tensorflow",
+      "name": "tensorflow/tensorflow",
+      "score": 6.5,
+      "track": "ml-framework",
+      "details": {
+        "intro": "一个机器学习框架或工具项目，为 AI 模型的训练和部署提供基础能力。 项目已获得超过 195K Stars，是该领域最受欢迎的开源项目之一。 主要使用 C++ 开发。",
+        "highlights": [
+          "超过 195K Stars，社区验证",
+          "模型训练支持",
+          "推理优化",
+          "多框架兼容",
+          "生态完善"
+        ],
+        "scenarios": [
+          "模型开发",
+          "AI 研究",
+          "生产部署",
+          "模型优化"
+        ],
+        "industries": [
+          "AI 研究",
+          "科技公司",
+          "学术机构",
+          "云服务商"
+        ],
+        "vc_review": "【市场洞察】tensorflow/tensorflow 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 195,116 Stars，属于头部开源项目。38.6% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（1/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.5/10，可以观望。关注项目后续发展，等待更好的时机。"
+      }
+    },
+    {
+      "id": "ollama-ollama",
+      "name": "ollama/ollama",
+      "score": 6.2,
+      "track": "llm-infra",
+      "details": {
+        "intro": "Ollama 让本地运行大语言模型变得前所未有的简单。一条命令即可下载并运行 Llama、Mistral、Gemma 等主流开源模型。项目专注于简化部署体验，是本地 AI 开发的首选工具。",
+        "highlights": [
+          "一键安装，开箱即用",
+          "支持所有主流开源模型",
+          "API 兼容 OpenAI 格式",
+          "内存优化，消费级硬件可用",
+          "活跃的模型库生态"
+        ],
+        "scenarios": [
+          "本地 AI 开发和测试",
+          "隐私敏感场景的 AI 部署",
+          "AI 学习和实验",
+          "离线 AI 应用",
+          "开发环境模型服务"
+        ],
+        "industries": [
+          "个人开发者",
+          "创业团队",
+          "研究人员",
+          "教育机构",
+          "对数据安全敏感的企业"
+        ],
+        "vc_review": "【市场洞察】ollama/ollama 定位于 LLM 基础设施层，这是整个 AI 应用生态的基石。随着企业 AI 应用需求爆发，LLM Infra 工具的市场需求持续增长。 【数据亮点】项目已斩获 171,407 Stars，属于头部开源项目。9.4% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（2/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.2/10，可以观望。关注项目后续发展，等待更好的时机。"
+      }
+    },
+    {
+      "id": "kubernetes-kubernetes",
+      "name": "kubernetes/kubernetes",
+      "score": 6.2,
+      "track": "other",
+      "details": {
+        "intro": "一个与 AI 相关的创新项目，在特定领域提供独特的价值。 项目已获得超过 122K Stars，是该领域最受欢迎的开源项目之一。 主要使用 Go 开发。",
+        "highlights": [
+          "超过 122K Stars，社区验证",
+          "创新技术方案",
+          "特定场景优化",
+          "开源社区支持",
+          "容器化部署，运维友好"
+        ],
+        "scenarios": [
+          "特定场景应用",
+          "技术探索",
+          "概念验证"
+        ],
+        "industries": [
+          "科技公司",
+          "创业团队",
+          "研究机构"
+        ],
+        "vc_review": "【市场洞察】kubernetes/kubernetes 在 AI 领域提供差异化价值，具有一定的市场空间和增长潜力。 【数据亮点】项目已斩获 122,266 Stars，属于头部开源项目。35.2% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】项目技术复杂度较高（1/5），不建议新手直接尝试。更适合作为技术学习对象或企业级集成。 【投资建议】综合评分 6.2/10，可以观望。关注项目后续发展，等待更好的时机。"
+      }
+    }
+  ],
+  "all_trending": [
+    {
+      "rank": 1,
+      "name": "freeCodeCamp/freeCodeCamp",
+      "stars": 444741,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 2,
+      "name": "openclaw/openclaw",
+      "stars": 371906,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 3,
+      "name": "nilbuild/developer-roadmap",
+      "stars": 354768,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 4,
+      "name": "facebook/react",
+      "stars": 245023,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 5,
+      "name": "torvalds/linux",
+      "stars": 233226,
+      "today_stars": 0,
+      "language": "C",
+      "is_ai": false
+    },
+    {
+      "rank": 6,
+      "name": "tensorflow/tensorflow",
+      "stars": 195116,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": true
+    },
+    {
+      "rank": 7,
+      "name": "ultraworkers/claw-code",
+      "stars": 191460,
+      "today_stars": 0,
+      "language": "Rust",
+      "is_ai": false
+    },
+    {
+      "rank": 8,
+      "name": "obra/superpowers",
+      "stars": 191289,
+      "today_stars": 0,
+      "language": "Shell",
+      "is_ai": true
+    },
+    {
+      "rank": 9,
+      "name": "n8n-io/n8n",
+      "stars": 187881,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 10,
+      "name": "microsoft/vscode",
+      "stars": 184933,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 11,
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 184306,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 12,
+      "name": "affaan-m/everything-claude-code",
+      "stars": 182289,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": true
+    },
+    {
+      "rank": 13,
+      "name": "flutter/flutter",
+      "stars": 176321,
+      "today_stars": 0,
+      "language": "Dart",
+      "is_ai": false
+    },
+    {
+      "rank": 14,
+      "name": "avelino/awesome-go",
+      "stars": 172667,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": false
+    },
+    {
+      "rank": 15,
+      "name": "ollama/ollama",
+      "stars": 171407,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    },
+    {
+      "rank": 16,
+      "name": "f/prompts.chat",
+      "stars": 162239,
+      "today_stars": 0,
+      "language": "HTML",
+      "is_ai": true
+    },
+    {
+      "rank": 17,
+      "name": "huggingface/transformers",
+      "stars": 160623,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 18,
+      "name": "anomalyco/opencode",
+      "stars": 160346,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 19,
+      "name": "NousResearch/hermes-agent",
+      "stars": 150448,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 20,
+      "name": "langflow-ai/langflow",
+      "stars": 148095,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 21,
+      "name": "langgenius/dify",
+      "stars": 141398,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": true
+    },
+    {
+      "rank": 22,
+      "name": "vercel/next.js",
+      "stars": 139469,
+      "today_stars": 0,
+      "language": "JavaScript",
+      "is_ai": false
+    },
+    {
+      "rank": 23,
+      "name": "open-webui/open-webui",
+      "stars": 137106,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 24,
+      "name": "langchain-ai/langchain",
+      "stars": 136750,
+      "today_stars": 0,
+      "language": "Python",
+      "is_ai": true
+    },
+    {
+      "rank": 25,
+      "name": "golang/go",
+      "stars": 133883,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": false
+    },
+    {
+      "rank": 26,
+      "name": "microsoft/PowerToys",
+      "stars": 133150,
+      "today_stars": 0,
+      "language": "C#",
+      "is_ai": false
+    },
+    {
+      "rank": 27,
+      "name": "facebook/react-native",
+      "stars": 125807,
+      "today_stars": 0,
+      "language": "C++",
+      "is_ai": false
+    },
+    {
+      "rank": 28,
+      "name": "anthropics/claude-code",
+      "stars": 123599,
+      "today_stars": 0,
+      "language": "Shell",
+      "is_ai": true
+    },
+    {
+      "rank": 29,
+      "name": "excalidraw/excalidraw",
+      "stars": 123233,
+      "today_stars": 0,
+      "language": "TypeScript",
+      "is_ai": false
+    },
+    {
+      "rank": 30,
+      "name": "kubernetes/kubernetes",
+      "stars": 122266,
+      "today_stars": 0,
+      "language": "Go",
+      "is_ai": true
+    }
+  ]
+}
