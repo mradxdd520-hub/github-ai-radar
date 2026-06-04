@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-06-03T10:03:33.526234",
+  "updated_at": "2026-06-04T10:12:04.162008",
   "stats": {
     "total_projects": 45,
-    "total_days": 39,
+    "total_days": 40,
     "featured_count": 26
   },
   "projects": {
@@ -12,8 +12,8 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 376301,
-      "forks": 78608,
+      "stars": 376604,
+      "forks": 78686,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -41,17 +41,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 2,
-      "days_on_trending": 54
+      "days_on_trending": 55
     },
     "tensorflow-tensorflow": {
       "id": "tensorflow-tensorflow",
       "name": "tensorflow/tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 195394,
-      "forks": 75339,
+      "stars": 195391,
+      "forks": 75353,
       "language": "C++",
       "topics": [
         "deep-learning",
@@ -81,9 +81,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 4,
-      "days_on_trending": 51
+      "days_on_trending": 52
     },
     "ohmyzsh-ohmyzsh": {
       "id": "ohmyzsh-ohmyzsh",
@@ -136,8 +136,8 @@
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 190804,
-      "forks": 58224,
+      "stars": 190977,
+      "forks": 58249,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -180,17 +180,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 6,
-      "days_on_trending": 54
+      "days_on_trending": 55
     },
     "significant-gravitas-autogpt": {
       "id": "significant-gravitas-autogpt",
       "name": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 184714,
-      "forks": 46192,
+      "stars": 184738,
+      "forks": 46185,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -224,17 +224,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 8,
-      "days_on_trending": 54
+      "days_on_trending": 55
     },
     "ollama-ollama": {
       "id": "ollama-ollama",
       "name": "ollama/ollama",
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 172967,
-      "forks": 16402,
+      "stars": 173082,
+      "forks": 16419,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -268,9 +268,9 @@
         "verdict": "⏸️ 暂不推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 8,
-      "days_on_trending": 53
+      "days_on_trending": 54
     },
     "affaan-m-everything-claude-code": {
       "id": "affaan-m-everything-claude-code",
@@ -317,8 +317,8 @@
       "name": "f/prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 163210,
-      "forks": 21216,
+      "stars": 163271,
+      "forks": 21217,
       "language": "HTML",
       "topics": [
         "ai",
@@ -356,17 +356,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 12,
-      "days_on_trending": 51
+      "days_on_trending": 52
     },
     "huggingface-transformers": {
       "id": "huggingface-transformers",
       "name": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 161213,
-      "forks": 33385,
+      "stars": 161258,
+      "forks": 33398,
       "language": "Python",
       "topics": [
         "audio",
@@ -407,17 +407,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 12,
-      "days_on_trending": 53
+      "days_on_trending": 54
     },
     "langflow-ai-langflow": {
       "id": "langflow-ai-langflow",
       "name": "langflow-ai/langflow",
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 149126,
-      "forks": 9174,
+      "stars": 149194,
+      "forks": 9182,
       "language": "Python",
       "topics": [
         "agents",
@@ -444,17 +444,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 14,
-      "days_on_trending": 52
+      "days_on_trending": 53
     },
     "anomalyco-opencode": {
       "id": "anomalyco-opencode",
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 168960,
-      "forks": 20190,
+      "stars": 169505,
+      "forks": 20279,
       "language": "TypeScript",
       "topics": [],
       "today_stars": 0,
@@ -474,17 +474,17 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 13,
-      "days_on_trending": 52
+      "days_on_trending": 53
     },
     "langgenius-dify": {
       "id": "langgenius-dify",
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 143573,
-      "forks": 22590,
+      "stars": 143748,
+      "forks": 22619,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -527,17 +527,17 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 8,
-      "days_on_trending": 52
+      "days_on_trending": 53
     },
     "langchain-ai-langchain": {
       "id": "langchain-ai-langchain",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "description": "The agent engineering platform",
-      "stars": 138343,
-      "forks": 22918,
+      "stars": 138441,
+      "forks": 22938,
       "language": "Python",
       "topics": [
         "agents",
@@ -580,17 +580,17 @@
         "verdict": "🏆 强烈推荐"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 6,
-      "days_on_trending": 50
+      "days_on_trending": 51
     },
     "open-webui-open-webui": {
       "id": "open-webui-open-webui",
       "name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 139742,
-      "forks": 20054,
+      "stars": 139891,
+      "forks": 20086,
       "language": "Python",
       "topics": [
         "ai",
@@ -628,9 +628,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 10,
-      "days_on_trending": 36
+      "days_on_trending": 37
     },
     "ggml-org-llama.cpp": {
       "id": "ggml-org-llama.cpp",
@@ -675,8 +675,8 @@
       "name": "anthropics/claude-code",
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural conversation.",
-      "stars": 129629,
-      "forks": 21081,
+      "stars": 129884,
+      "forks": 21115,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -708,9 +708,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-02",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 9,
-      "days_on_trending": 16
+      "days_on_trending": 17
     },
     "f-awesome-chatgpt-prompts": {
       "id": "f-awesome-chatgpt-prompts",
@@ -1090,8 +1090,8 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 215926,
-      "forks": 19231,
+      "stars": 216988,
+      "forks": 19318,
       "language": "Shell",
       "topics": [],
       "today_stars": 0,
@@ -1111,9 +1111,9 @@
         "verdict": "👀 可以观望"
       },
       "first_seen": "2026-04-02",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 6,
-      "days_on_trending": 24
+      "days_on_trending": 25
     },
     "crewaiinc-crewai": {
       "id": "crewaiinc-crewai",
@@ -1310,8 +1310,8 @@
       "name": "EbookFoundation/free-programming-books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
-      "stars": 389053,
-      "forks": 66353,
+      "stars": 389618,
+      "forks": 66410,
       "language": "Python",
       "topics": [
         "books",
@@ -1338,9 +1338,9 @@
         "verdict": "✅ 值得关注"
       },
       "first_seen": "2026-04-16",
-      "last_seen": "2026-05-28",
+      "last_seen": "2026-06-04",
       "peak_rank": 2,
-      "days_on_trending": 14
+      "days_on_trending": 15
     },
     "snailclimb-javaguide": {
       "id": "snailclimb-javaguide",
@@ -1504,8 +1504,8 @@
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 177442,
-      "forks": 30352,
+      "stars": 179236,
+      "forks": 30699,
       "language": "Python",
       "topics": [
         "ai",
@@ -1566,9 +1566,9 @@
         "vc_review": "【市场洞察】NousResearch/hermes-agent 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 115,411 Stars，属于头部开源项目。14.7% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.3/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
       },
       "first_seen": "2026-04-25",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 12,
-      "days_on_trending": 36
+      "days_on_trending": 37
     },
     "iptv-org-iptv": {
       "id": "iptv-org-iptv",
@@ -1693,8 +1693,8 @@
       "name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "🔥 The API to search, scrape, and interact with the web for AI",
-      "stars": 127328,
-      "forks": 7603,
+      "stars": 128285,
+      "forks": 7643,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1758,9 +1758,9 @@
         "vc_review": "【市场洞察】firecrawl/firecrawl 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 112,074 Stars，属于头部开源项目。6.4% 的 Fork 率表明社区参与度正常，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.7/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
       },
       "first_seen": "2026-04-25",
-      "last_seen": "2026-06-02",
+      "last_seen": "2026-06-04",
       "peak_rank": 24,
-      "days_on_trending": 8
+      "days_on_trending": 9
     },
     "x1xhlol-system-prompts-and-models-of-ai-tools": {
       "id": "x1xhlol-system-prompts-and-models-of-ai-tools",
@@ -1841,8 +1841,8 @@
       "name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 204048,
-      "forks": 31298,
+      "stars": 205829,
+      "forks": 31602,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -1895,9 +1895,9 @@
         "vc_review": "【市场洞察】affaan-m/ECC 切入的是 AI Agent 赛道，这是 2024-2025 年最火热的 AI 应用方向。随着 GPT-4、Claude 3 等模型能力的提升，Agent 从概念走向落地，市场空间巨大。 【数据亮点】项目已斩获 187,217 Stars，属于头部开源项目。15.5% 的 Fork 率表明社区参与度较高，开发者生态健康。 【Vibecoding 潜力】技术实现难度较低（4/5），非常适合独立开发者快速包装成产品。建议结合特定垂直场景做差异化。 【风险提示】赛道竞争激烈，需要差异化定位。 【投资建议】综合评分 7.6/10，值得关注。建议深入调研后，结合自身优势选择切入点。"
       },
       "first_seen": "2026-05-20",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "peak_rank": 7,
-      "days_on_trending": 7
+      "days_on_trending": 8
     },
     "comfy-org-comfyui": {
       "id": "comfy-org-comfyui",
